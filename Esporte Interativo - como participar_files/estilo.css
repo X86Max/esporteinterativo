@@ -1,0 +1,5117 @@
+a.classe:link {
+	font-family: Trebuchet MS, Arial;
+	font-size:12px;
+	color:#000000;
+	text-decoration: none;
+}
+
+a.classe:visited {
+	font-family: Trebuchet MS, Arial;
+	font-size:12px;
+	color:#000000;
+	text-decoration: none;}
+
+a.classe:hover {
+	font-family: Trebuchet MS, Arial;	
+	font-size:12px;
+	text-decoration:underline;
+	color:#000000;
+}
+a.classe:active {
+	font-family: Trebuchet MS, Arial;	
+	font-size:12px;
+	color:#000000;
+	text-decoration: none;}
+
+a.classe {
+	font-family: Trebuchet MS, Arial;	
+	font-size:12px;
+	color:#000000;
+	text-decoration: none;}
+
+.nTxt{
+	font-weight: bold;
+	font-size: 11px;
+}
+.nTxt2{
+	font-family: Trebuchet MS, Arial;
+	font-size:11px;
+	padding-left:7px;
+}
+.style2 {font-size: 11px}
+.style3 {
+	color: #FFFFFF;
+	font-family: Trebuchet MS, Arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+a.txtMaisAtracoes {
+	font-family			: Trebuchet MS, Arial;
+	font-size			: 9px;
+	color				: #000000;
+	text-decoration		: none;
+}
+
+a.txtMaisAtracoes:hover {
+	font-family			: Trebuchet MS, Arial;
+	font-size			: 9px;
+	color				: #000000;
+	text-decoration		: underline;
+	cursor:pointer;
+	cursor:hand;
+}
+
+a.TxtDivChamada:hover{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 16px;
+	color		 : #fff;
+	text-decoration:underline;
+	cursor:pointer;
+	cursor:hand;
+}
+
+a.SpanTitNotCampHome:hover{
+/*	position		:relative;*/
+	top				:3px;
+	left			:10px;
+	padding-top:10px;
+	padding-left:10px;
+	text-transform	: uppercase;
+	font-weight	 	: bold;	
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 14px;
+	color		 	: #fff;
+	text-decoration	: underline;
+}
+
+a.linkNotPeq{
+	text-decoration:none;
+	color:fff;
+}
+a.linkNotPeq:hover{
+	text-decoration:underline;
+	color:fff;
+}
+
+
+a.lnk_voltar { font-family: Verdana, sans-serif; font-size: 11px;font-weight: bold; color: #0B569F; text-decoration: none; }
+a.lnk_voltar:hover { font-family: Verdana, sans-serif; font-size: 11px;font-weight: bold; color: #0099CC; text-decoration: none; }
+
+/*############# sub 17 ################*/
+.TabNoticiaDestaques10{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height:114px;
+	width : 117px;
+	background-color: #FEA30C;
+}
+
+.TdNoticiaCamp10{
+	width		 : 202;
+	background-color: #FEA30C;
+}
+
+.TabNoticiaDestaques12{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height		 :114px;
+	width 		 : 117px;
+	background-color:#FEA30C;
+}
+
+.TdNoticiaCamp12{
+	width		 : 202;
+	background-color: #fbe102;
+}
+
+.TabNoticiaDestaques15{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height		 :114px;
+	width 		 : 117px;
+	background-color:#FEA30C;
+}
+
+.TdNoticiaCamp15{
+	width		 : 202;
+	background-color: #FEA30C;
+}
+
+
+
+.TabNoticiaDestaques13{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height		 :114px;
+	width 		 : 117px;
+	background-color:#FF0000;
+}
+
+.TdNoticiaCamp13{
+	width		 : 202;
+	background-color: #FF0000;
+}
+
+
+.TabNoticiaDestaques14{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height		 :114px;
+	width 		 : 117px;
+	background-color:#FF0000;
+}
+
+.TdNoticiaCamp16{
+	width		 : 202;
+	background-color: #FF0000;
+}
+
+.TabNoticiaDestaques16{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height		 :114px;
+	width 		 : 117px;
+	background-color:#FF0000;
+}
+
+.TdNoticiaCamp14{
+	width		 : 202;
+	background-color: #FF0000;
+}
+
+
+
+.TitCampeonato8{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_nba.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 17px;
+	_height				: 18px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.TitCampeonato10{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_sulamericanosub17.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 17px;
+	_height				: 18px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+
+.TitCampeonato13{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_pan.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 17px;
+	_height				: 18px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+
+.Headersub17{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/sub17/bgHeadersub17.jpg');
+	background-repeat	: no-repeat;
+	background-position:1 1;
+	height				: 54;
+}
+
+
+.TdOutrosArtilheirosIndex{
+	padding-top:2px;
+}
+.TabBodysub17{
+	position			 :relative;
+/*	top					 :-30px;*/
+	_top				 :;
+	height 				 : 500px;
+	width  				 : 465px;
+	_height 			 : 500px;
+	_width  			 : 463px;
+}
+
+.cTXTArtilheiroNumGolsHomesub17 {
+
+	font-family			: Arial;
+	font-size			: 18px;
+	color				: #fff;
+/*	border-bottom		: 1px solid #C2CCEB;*/
+	text-decoration		: none;
+}
+.cTXTArtilheiroGolsHomesub17 {
+	font-family			: Arial;
+	font-size			: 14px;
+	color				: #fff;
+/*	border-bottom		: 1px solid #C2CCEB;*/
+	text-decoration		: none;
+}
+
+.TxtNomeOutrosAtiheiros{
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 12px;
+	color		 	: #fff;
+	text-decoration	: none;
+}
+
+.TabOutrosAtiheiros{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.TrTabelaArtilheirosub17{
+
+	width  			 : 400px;
+	background-color : #063C61;
+}
+
+.SpanAssitaBandsub17{
+
+	height			: 20px;
+	padding-left	:10px;
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 11px;
+	color		 	: #fff;
+	text-decoration	: none;
+	font-weight	 	: bold;	
+
+}
+
+.TxtIndiceClassifsub17{
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 9px;
+	color		 	: #fff;
+	text-decoration	: none;
+}
+
+.TxtTabClassificacao{
+	font-weight	 	: bold;	
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 12px;
+	color		 	: #fff;
+	text-decoration	: none;
+}
+
+.TabTabelasub17{
+	padding-top:7px;
+}
+
+.EscudoClassificacao{
+	position 		 : relative;
+	top 			 : 2px;
+	height 			 : 17px;
+	width  			 : 25px;
+}
+
+.TrClassificacaosub17Index{
+	height 			 : 23px;
+	width  			 : 458px;
+	background-color : #173649;
+}
+
+.TrClassificacaosub17{
+
+	height 			 : 30px;
+	width  			 : 458px;
+	background-color : #173649;
+}
+
+.TabClassificacaosub17{
+	width  			 : 458px;
+	background-color : #1686B4;
+
+}
+
+.TrTabelasub17{
+	width  			 : 441px;
+	background-color : #2C2C2C;
+}
+
+.TrGruposub17{
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 11px;
+	color		 	: #fff;
+	text-decoration	: none;
+	font-weight	 	: bold;	
+	
+	width  			 : 441px;
+	height 			 : 20px;
+	background-color : #180101;
+}
+
+.TitTabelaCompsub17{
+	line-height		: 23px;
+	font-weight	 	: bold;	
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 13px;
+	color		 	: #fff;
+	text-decoration	: none;
+}
+
+.cTBLOutrosArtilheirosub17{
+	margin-top:4px;	
+}
+
+.VejaTodasArtsub17{
+	position : relative;
+	top:-2px;
+}
+
+.TxtTitArtilheiros{
+	font-weight	 	: bold;	
+	text-transform	: uppercase;
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 12px;
+	line-height		: 23px;
+	color		 	: #FFF;
+}
+
+.cTXTArtilheiroTimesub17 {
+	position			:relative;
+	top					:-3px;
+	font-family			: Arial;
+	font-size			: 12px;
+	color				: #fff;
+	text-decoration		: none;
+}
+
+.cTXTArtilheiroGolssub17{
+	position:relative;
+	top:-4px;
+
+}
+
+.cTXTArtilheiroNomesub17 {
+	font-family			: Arial;
+	font-size			: 12px;
+	color				: #fff;
+	text-decoration		: none;
+	line-height			: 17px;
+	_line-height		: 10px;
+}
+
+
+.cTBLArtilheirosub17{
+	background-color : #031E30;	
+	height : 61
+}
+
+
+.FontDtJogossub17{
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 10px;
+	color		 	: #fff;
+	text-decoration	:none;
+}
+
+.VejaTabelasub17{
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:none;
+	height:100%;
+}
+
+.NomeJogoSub{
+	padding-left:5px;
+}
+
+.ImgTvJogoSub{
+	position: relative;
+	
+	top		:2px;
+}
+
+.TrJogossub170{
+	height			: 20px;
+	font-weight	 	: bold;	
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 10px;
+	color		 	: #fff;
+	text-decoration	:none;
+}
+
+.TrJogossub171{
+	height			 : 20px;
+	font-weight	 	 : bold;	
+	font-family  	 : Trebuchet MS, Arial;
+	font-size	 	 : 10px;
+	color		 	 : #fff;
+	text-decoration	 : none;
+	background-color : #659A13;	
+}
+
+.Espaco{
+	line-height  : 4px;
+	height		 : 4px;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 4px;
+	
+}
+
+.VejaTodasNotsub17{
+	width		 : 210;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:none;
+	position : relative;
+	top:-3px;
+
+	_position : relative;
+	_top:-3px;
+}
+
+.VejaTodassub17{
+	position	 : relative;
+	width		 : 210;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:none;
+	margin-top	 : 0px;
+}
+
+a.VejaTodassub17:hover{
+	width		 : 210;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:underline;
+}
+
+.EspacoHomeTabelasub17{
+	height  : 12px;
+	_height : 0px;
+}
+
+.VejaTodasTabsub17{
+	position	 : relative;
+	width		 : 210;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:none;
+
+}
+
+a.VejaTodasTabsub17:hover{
+	width		 : 210;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:underline;
+}
+
+.DivChamadaSub0{
+	width		 : 210;
+	height		 : 10px;
+	text-align	 : left;
+	/*border		 : 1px solid #fff;*/
+}
+
+.TabBodyNoticiassub17{
+	position	: relative;
+	top			: -5px;
+	_top		: -13px;
+}
+
+.DivChamadaSub1{
+	width		 : 210;
+	height		 : 10px;
+	text-align	 : left;
+	/*border		 : 1px solid #fff;*/
+}
+
+.TxtChamadaSub0{
+	font-family  : Arial;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration:none;
+}
+
+a.TxtChamadaSub0:hover{
+
+	font-family  : Arial;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration:underline;
+}
+
+
+.TxtChamadaSub1{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 9px;
+	color		 : #ffff00;
+	text-decoration:none;
+}
+
+a.TxtChamadaSub1:hover{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 9px;
+	color		 : #ffff00;
+	text-decoration:underline;
+}
+
+
+.TxtDivChamadaSub{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 13.2px;
+	color		 : #fff;
+	text-decoration:none;
+	text-align:left;
+	
+	
+}
+
+a.TxtDivChamadaSub:hover{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 13.2px;
+	color		 : #fff;
+	text-decoration:underline;
+	text-align:left;
+	
+}
+
+.DivChamadaSubNot{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 14px;
+	color		 : #fff;
+	width		 : 210;
+	height		 : 50px;
+
+
+	position : relative;
+	left: 7px;
+/*	border		 : 1px solid #000;*/
+
+}
+
+a.linkNotPeq{
+	text-decoration:none;
+	color:fff;
+}
+a.linkNotPeq:hover{
+	text-decoration:underline;
+	color:fff;
+}
+
+.Menusub17
+{
+	font-family	: Arial;
+	font-size	: 10px;
+	color		: #FFF;
+	text-decoration : none;
+}
+
+a.Menusub17:hover
+{
+	font-family	: Arial;
+	font-size	: 10px;
+	color		: #FFF;
+	text-decoration:underline;
+}
+
+.TabMenusub17{
+	margin-top:5px;
+	background-color	: #2B2B2B;
+}
+
+.TabClasssub17{
+	width		: 223px;
+
+
+	
+	background-color	: #1686B4;
+}
+
+.TableNoticiassub17{
+	width		: 224px;
+	height		: 183px;
+	
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/sub17/TdNoticiassub17.jpg');
+	background-repeat	: no-repeat;
+
+}
+
+.FtUltNoticiasub17{
+	width		: 224px;
+	height		: 125px;
+}
+
+.tabManchete{
+	background-color	: #3B7110;
+	width				: 224px;
+	height				: 182;
+	margin-top 			: 3px;
+	
+}
+.TabArtilhariasub17{
+	margin-top  : 1px;
+	width		: 223px;
+	height		: 148px;
+	
+	background-color	: #063C61;
+
+}
+
+.TabProxJogossub17{
+	width		: 223px;
+	height		: 148px;
+	margin-top  : 1px;
+	background-color	: #2C2C2C;
+
+}
+
+.Bannersub17{
+	margin-top  : 1px;
+	width		: 223px;
+	height		: 182px;
+	
+	background-color	: #3E83AF;
+}
+.Bannersub17Int{
+	margin-top  : 1px;
+	width		: 228px;
+	height		: 182px;
+	
+	background-color	: #3E83AF;
+}
+.TitProxJogosSub{
+	font-weight	 	: bold;	
+	text-transform	: uppercase;
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 12px;
+	line-height		: 13px;
+	color		 	: #FFF;
+	height 		 	: 30px;
+	padding-left	:10px;
+}
+/*############# sub 17 ################*/
+
+/*############# sub 20 ################*/
+
+.ObsExtrato{
+	font-family  	: Arial;
+	font-size	 	: 10px;
+	color		 	: #666;
+	text-decoration	: none;	
+}
+.TrColunaExtrato{
+	background-color	: #B85252;
+	height			: 25px;
+	font-family  	: Arial;
+	font-size	 	: 12px;
+	color		 	: #FFF;
+	text-decoration	: none;	
+}
+
+.TrResultadoExtrato{
+	background-color	: #F2E0DF;
+	height			: 25px;
+	font-family  	: Arial;
+	font-size	 	: 12px;
+	color		 	: #FFF;
+	text-decoration	: none;	
+}
+
+
+.TabExtrato{
+	margin-left:20px;
+}
+
+.MeioExtratoEmbratel{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/BgMeioExtrato.jpg');
+	height				: 20px;
+	width				: 553px;
+	background-color	: #980B00;
+	
+	font-weight	 	: bold;	
+	font-family  	: Arial;
+	font-size	 	: 13px;
+	color		 	: #FFF;
+	text-decoration	: none;
+}
+.DivCadastroPromo{
+	visibility		: hidden;
+	position		: absolute;	
+}
+.BannerExtratoPromocao{
+	visibility		: visible;
+	position		: relative;	
+}
+.ComercialEntre{
+	font-weight	 	: bold;	
+	text-transform	: uppercase;
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 17px;
+	color		 	: #000;
+	text-decoration	: none;
+}
+.ComercialT{
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 20px;
+	color		 	: #4B0000;
+	text-decoration	: none;
+}
+.ComercialTel{
+	font-weight	 	: bold;	
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 20px;
+	color		 	: #4B0000;
+	text-decoration	: none;
+}
+.ComercialEmail{
+	font-weight	 	: bold;	
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 20px;
+	color		 	: #990201;
+	text-decoration	: none;
+}
+
+.LogoBaixo{
+	position : relative; 
+	top		 : -4px; 
+	left	 : 5px;
+}
+.TxtFooter{
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #7C3131; 
+	text-decoration 	: none;
+}
+
+a.TxtFooter:hover{
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #7C3131; 
+	text-decoration 	: underline;
+}
+
+.TabLoginSubmarino{
+	background-color : #C85959;
+	border			 : 1px solid #411616;
+}
+
+.txtFormGeralSubmarino{
+	font-family			: Verdana;
+	font-size			: 12px;
+	color				: #880101;
+	padding-top			:30px;
+}
+
+.txtFormGeralSubmarino2{
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #880101;
+	padding-top			: 30px;
+}
+
+.txtBoxSubmarino{
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #FFF;
+}
+.TabsSubmarino{
+	width				:465;
+	position			: relative;
+	top					: 0px;
+	background-color 	: #FFF;
+	
+	_width				:463;
+	_position			: relative;
+	_top				: ;
+	_background-color 	: #FFF;
+}
+
+.TabsCelular{
+	width				: 465;
+	position			: relative;
+
+	background-color 	: #FFF;
+	
+	_width				: 463;
+	_position			: relative;
+	_top				: ;
+	_background-color 	: #FFF;
+}
+
+
+.TabCadastroPrincipal{
+	width  				: 620px;
+	_width  			: 620px;
+	position 			: relative;
+	top					: 0px;
+	_top				: 0px;
+	background-color	: #FFF;
+}
+.TabHeaderCadastro{
+	width  				 : 605px;
+	_width  			 : 458px;
+}
+
+.TitCampeonato7{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_sulamericanosub20.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 17px;
+	_height				: 18px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.HeaderSub20{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgHeaderSub20.jpg');
+	background-repeat	: no-repeat;
+	height				: 45;
+}
+
+
+.TdOutrosArtilheirosIndex{
+	padding-top:2px;
+}
+.TabBodySub20{
+	position			 :relative;
+/*	top					 :-30px;*/
+	_top				 :;
+	height 				 : 500px;
+	width  				 : 465px;
+	_height 			 : 500px;
+	_width  			 : 463px;
+}
+
+.cTXTArtilheiroNumGolsHomeSub20 {
+
+	font-family			: Arial;
+	font-size			: 18px;
+	color				: #fff;
+/*	border-bottom		: 1px solid #C2CCEB;*/
+	text-decoration		: none;
+}
+.cTXTArtilheiroGolsHomeSub20 {
+	font-family			: Arial;
+	font-size			: 14px;
+	color				: #fff;
+/*	border-bottom		: 1px solid #C2CCEB;*/
+	text-decoration		: none;
+}
+
+.TxtNomeOutrosAtiheiros{
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 12px;
+	color		 	: #fff;
+	text-decoration	: none;
+}
+
+.TabOutrosAtiheiros{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.TrTabelaArtilheiroSub20{
+
+	width  			 : 400px;
+	background-color : #063C61;
+}
+
+.SpanAssitaBandSub20{
+
+	height			: 20px;
+	padding-left	:10px;
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 11px;
+	color		 	: #fff;
+	text-decoration	: none;
+	font-weight	 	: bold;	
+
+}
+
+.TxtIndiceClassifSub20{
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 9px;
+	color		 	: #fff;
+	text-decoration	: none;
+}
+
+.TxtTabClassificacao{
+	font-weight	 	: bold;	
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 12px;
+	color		 	: #fff;
+	text-decoration	: none;
+}
+
+.TabTabelaSub20{
+	padding-top:7px;
+}
+
+.EscudoClassificacao{
+	position 		 : relative;
+	top 			 : 2px;
+	height 			 : 17px;
+	width  			 : 25px;
+}
+
+.TrClassificacaoSub20Index{
+	height 			 : 23px;
+	width  			 : 458px;
+	background-color : #173649;
+}
+
+.TrClassificacaoSub20{
+
+	height 			 : 30px;
+	width  			 : 458px;
+	background-color : #173649;
+}
+
+.TabClassificacaoSub20{
+	width  			 : 458px;
+	background-color : #1686B4;
+
+}
+
+.TrTabelaSub20{
+	width  			 : 441px;
+	background-color : #2C2C2C;
+}
+
+.TrGrupoSub20{
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 11px;
+	color		 	: #fff;
+	text-decoration	: none;
+	font-weight	 	: bold;	
+	
+	width  			 : 441px;
+	height 			 : 20px;
+	background-color : #180101;
+}
+
+.TitTabelaCompSub20{
+	line-height		: 23px;
+	font-weight	 	: bold;	
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 13px;
+	color		 	: #fff;
+	text-decoration	: none;
+}
+
+.cTBLOutrosArtilheiroSub20{
+	margin-top:4px;	
+}
+
+.VejaTodasArtSub20{
+	position : relative;
+	top:-2px;
+}
+
+.TxtTitArtilheiros{
+	font-weight	 	: bold;	
+	text-transform	: uppercase;
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 12px;
+	line-height		: 23px;
+	color		 	: #FFF;
+}
+
+.cTXTArtilheiroTimeSub20 {
+	position			:relative;
+	top					:-3px;
+	font-family			: Arial;
+	font-size			: 12px;
+	color				: #fff;
+	text-decoration		: none;
+}
+
+.cTXTArtilheiroGolsSub20{
+	position:relative;
+	top:-4px;
+
+}
+
+.cTXTArtilheiroNomeSub20 {
+	font-family			: Arial;
+	font-size			: 12px;
+	color				: #fff;
+	text-decoration		: none;
+	line-height			: 17px;
+	_line-height		: 10px;
+}
+
+
+.cTBLArtilheiroSub20{
+	background-color : #031E30;	
+	height : 61
+}
+
+
+.FontDtJogosSub20{
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 10px;
+	color		 	: #fff;
+	text-decoration	:none;
+}
+
+.VejaTabelaSub20{
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:none;
+	height:100%;
+}
+
+.NomeJogoSub{
+	padding-left:5px;
+}
+
+.ImgTvJogoSub{
+	position: relative;
+	
+	top		:2px;
+}
+
+.TrJogosSub200{
+	height			: 20px;
+	font-weight	 	: bold;	
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 10px;
+	color		 	: #fff;
+	text-decoration	:none;
+}
+
+.TrJogosSub201{
+	height			 : 20px;
+	font-weight	 	 : bold;	
+	font-family  	 : Trebuchet MS, Arial;
+	font-size	 	 : 10px;
+	color		 	 : #fff;
+	text-decoration	 : none;
+	background-color : #659A13;	
+}
+
+.Espaco{
+	line-height  : 4px;
+	height		 : 4px;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 4px;
+	
+}
+.HeaderUltimasNoticias{
+	line-height  : 3px;
+	height		 : 25px;
+}
+
+.VejaTodasNotSub20{
+	width		 : 210;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:none;
+	position : relative;
+	top:-3px;
+
+	_position : relative;
+	_top:-3px;
+}
+
+.VejaTodasSub20{
+	position	 : relative;
+	width		 : 210;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:none;
+	margin-top	 : -10px;
+}
+
+a.VejaTodasSub20:hover{
+	width		 : 210;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:underline;
+}
+
+.EspacoHomeTabelaSub20{
+	height  : 12px;
+	_height : 0px;
+}
+
+.VejaTodasTabSub20{
+	position	 : relative;
+	width		 : 210;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:none;
+
+}
+
+a.VejaTodasTabSub20:hover{
+	width		 : 210;
+	font-family  : Arial;
+	text-align	 : left;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration	:underline;
+}
+
+.DivChamadaSub0{
+	width		 : 210;
+	height		 : 10px;
+	text-align	 : left;
+	/*border		 : 1px solid #fff;*/
+}
+
+.TabBodyNoticiasSub20{
+	position	: relative;
+	top			: -10px;
+	_top		: -18px;
+}
+
+.DivChamadaSub1{
+	width		 : 210;
+	height		 : 10px;
+	text-align	 : left;
+	/*border		 : 1px solid #fff;*/
+}
+
+.TxtChamadaSub0{
+	font-family  : Arial;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration:none;
+}
+
+a.TxtChamadaSub0:hover{
+
+	font-family  : Arial;
+	font-size	 : 9px;
+	color		 : #fff;
+	text-decoration:underline;
+}
+
+
+.TxtChamadaSub1{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 9px;
+	color		 : #ffff00;
+	text-decoration:none;
+}
+
+a.TxtChamadaSub1:hover{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 9px;
+	color		 : #ffff00;
+	text-decoration:underline;
+}
+
+
+.MenuSub20
+{
+	font-family	: Arial;
+	font-size	: 10px;
+	color		: #FFF;
+	text-decoration : none;
+}
+
+a.MenuSub20:hover
+{
+	font-family	: Arial;
+	font-size	: 10px;
+	color		: #FFF;
+	text-decoration:underline;
+}
+
+.TabMenuSub20{
+	background-color	: #2B2B2B;
+}
+
+.TabClassSub20{
+	width		: 223px;
+
+
+	
+	background-color	: #1686B4;
+}
+
+.TableNoticiasSub20{
+	width		: 224px;
+	height		: 183px;
+	
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/TdNoticiasSub20.jpg');
+	background-repeat	: no-repeat;
+
+}
+
+.FtUltNoticiaSub20{
+	width		: 224px;
+	height		: 125px;
+}
+
+.tabManchete{
+	background-color	: #3B7110;
+	width				: 224px;
+	height				: 182;
+	margin-top 			: 3px;
+	
+}
+.TabArtilhariaSub20{
+	margin-top  : 1px;
+	width		: 223px;
+	height		: 148px;
+	
+	background-color	: #063C61;
+
+}
+
+.TabProxJogosSub20{
+	width		: 223px;
+	height		: 148px;
+	margin-top  : 1px;
+	background-color	: #2C2C2C;
+
+}
+
+.BannerSub20{
+	margin-top  : 1px;
+	width		: 223px;
+	height		: 182px;
+	
+	background-color	: #3E83AF;
+}
+.BannerSub20Int{
+	margin-top  : 1px;
+	width		: 228px;
+	height		: 182px;
+	
+	background-color	: #3E83AF;
+}
+.TitProxJogosSub{
+	font-weight	 	: bold;	
+	text-transform	: uppercase;
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 12px;
+	line-height		: 13px;
+	color		 	: #FFF;
+	height 		 	: 30px;
+	padding-left	:10px;
+}
+/*############# sub 20 ################*/
+
+#DIVBand {
+	position	: relative;
+	float		: center;
+	width		: 778px;
+	height		: 40px;
+
+	background-color	: #990100;
+}
+
+#DIVBgHeader {
+	position	: relative;
+	float		: center;
+	top:-5px;
+	width		: 778px;
+	height		: 66px;
+	_height		: 70px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/header/bgHeader.jpg');
+	background-repeat	: no-repeat;
+}
+
+.LinkHomeBanner{
+	postion			: relative;
+	height			: 60px; 
+	width			: 290px;
+	margin-left		: 13px;
+	margin-top		: 3px;
+	cursor			: hand;
+}
+
+#DIVMiolo {
+	position	: relative;
+	float		: left;
+	width		: 778px;
+	padding-top	: 10px;
+	background-color	: #990100;
+}
+
+#DIVBarraEsquerda {
+	position		: relative;
+	float			: left;
+	width			: 150px;
+	_width			: 157px;
+	padding-left	: 5px;
+	padding-right	: 7px;
+
+	_height			: 100%;
+
+	background-color	: #990100;
+}
+
+#DIVConteudo {
+	position		: relative;
+	float			: left;
+	width			: 463px;
+	_width			: 463px;
+	height			: 100%;	
+	_height			: 715px;
+
+	background-color: #FFFFFF;
+}
+
+.TabConteudo {
+	position		: relative;
+	float			: left;
+	left			: -5px;
+	_left:			;
+	width			: 490;
+	_width			: 463px;
+	height			: 100%;	
+	_height			: 715px;
+	background-color: #FFFFFF;
+
+}
+
+#DIVGeral {
+	position	: relative;
+	float		: center;
+	width		: 768px;
+	left		: 50%;
+	margin-left	: -390px;
+
+	background-color  : #990100;
+}
+/*########################## NOVOS CSS DA HOME ##########################*/
+
+.cTXTEnqueteVoltar {
+	font-weight	 : bold;	
+	text-transform	: uppercase;
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #BED402;
+	text-decoration:none;
+}
+
+a.cTXTEnqueteVoltar:hover {
+	text-decoration:underline;
+}
+
+.LinksLogadoEsq {
+	font-weight	 : bold;	
+	text-transform	: uppercase;
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 9px;
+	color		 : #134165;
+	text-align   : left;
+	text-decoration:none;
+}
+
+a.LinksLogadoEsq:hover{
+	font-weight	 : bold;	
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 9px;
+	color		 : #134165;
+	text-align   : left;
+	text-transform	: uppercase;
+	text-decoration:underline;
+}
+
+.DIVMeioLogadoEsq{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	
+	color		 : #000;
+	text-align   : left;
+	background-color : #fff;
+/*	border:1px solid #000;*/
+
+}
+
+.DivClubeEILogado{
+	margin-left:5px;
+}
+
+.MeioLogadoEsq{
+	font-family 	 : Trebuchet MS, Arial;
+	/*font-weight	 : bold;	*/
+	font-size	 	 : 15px;
+	color		 	 : #FF7200;
+	background-color : #fff;
+	text-transform	: uppercase;
+	font-weight	 : bold;	
+}
+
+
+.TabLogadoEsq{
+	width		: 143px;
+/*	height		: 165px;*/
+	
+	margin-bottom	 : 10px;
+
+}
+
+.TitLogadoEsq{
+
+	font-weight	 : bold;	
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 12px;
+	color		 : #FFF;
+	text-align   : center;
+	background-color : #134165;
+}
+
+#TabLogado {
+	position	 : relative;
+	float		 : left;
+	left		 : 60px;
+	_left		 : 58px;
+	
+	margin-top	 : 2px;
+	line-height	 : 8px;
+	height		 :40px;
+}
+
+.EditaCadastro{
+	line-height	 :1px;
+
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 9px;
+	color		 : #FFF;
+	text-decoration	: none;
+}
+
+a.EditaCadastro:hover{
+	line-height	 :1px;
+
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 9px;
+	color		 : #FFF;
+	text-decoration	: underline;
+}
+
+.LogadoNome{
+	font-weight	 : bold;	
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 11px;
+	color		 : #FFCC00;
+	text-transform	: uppercase;
+}
+
+.TabProgramacaoHome{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bgProgramacao.gif');
+	background-repeat	: repeat;
+	height				: 65px;
+	/*border				: 1px solid #000;*/
+}
+
+#DIVProgramacao{
+	/*border	:1px solid #000;*/
+	height	:65px;
+}
+
+#DIVConteudoProgramacao {
+	margin-top:1px;
+}
+
+#TabPrinProgramacao{
+	position			: relative;
+	margin-top			: -43;
+	_margin-top			: -63;
+}
+
+#TabPrinProgramacaoInterna{
+	margin-top			: 15px; 
+	position			: relative;
+}
+
+.cBGProgramacao0 {
+	background-color	: #E6EAF7;
+}
+
+.cBGProgramacao1 {
+	background-color	: #B0B2C5;
+}
+
+.cTXTProgramacaoHome {
+	font-family			: Trebuchet MS;
+	font-size			: 12px;
+	text-align			: center;
+	color				: #fff;
+	text-decoration		: none;
+}
+
+.cBGLinhaProgramacao {
+	position			: relative;
+	height				: 1px;
+	background-color	: #1C5C9E;
+}
+
+
+.cTXTRodapeHome {
+	position			: relative;
+	float				: left;
+	/*top					: 10px;*/
+	_top				: 0px;
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #7C3131; 
+	text-decoration 	: none;
+
+	background-color	: #fff;
+
+	width				: 620px;
+	
+
+	_width			:620px;
+	_margin-left	: ;
+	_height			: ;
+}
+
+.DivFotoTelevisao{
+	position	: relative; 
+	float		: top;
+	left		: 224px; 
+	top			: -185;
+	_top		: -180;
+}
+
+.FotoTelevisao{
+	visibility		: hidden;
+	position		: absolute;
+	width			: 196px;
+	height			: 115px;
+}
+
+.TitDestaqueNot{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	padding-left	:2px;
+	text-transform	: uppercase;
+	text-decoration : none;
+	line-height : 18px;
+}
+
+a.TitDestaqueNot:hover{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;	
+	padding-left:2px;
+	text-transform	: uppercase;
+	text-decoration : underline;
+}
+
+ContDestaqueNot{
+	padding-left	: 5px;
+	line-height		: 11px;
+}
+
+.FotoNoticiaDestaque{
+	width:111px; 
+	height:62px;
+	border-top : 5px solid #000;
+	border-bottom : 5px solid #000;	
+	border-left : 3px solid #000;
+	border-right : 3px solid #000;
+}
+
+
+.TabNoticiaDestaques{
+	margin-left  : 3px;
+	margin-top   : 2px;
+	margin-bottom: 2px;
+}
+
+.TabNoticiaDestaques4{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height:114px;
+	width : 117px;
+	background-color:#394805;
+}
+
+.TabNoticiaDestaques7{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height		 :114px;
+	width 		 : 117px;
+	background-color:#262626;
+}
+
+.TabNoticiaDestaques0{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height		 :114px;
+	width 		 : 117px;
+	background-color:#262626;
+}
+
+.TabNoticiaDestaques1{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height:114px;
+	width : 117px;
+	background-color:#9D0404;
+}
+
+.TabNoticiaDestaques5{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height:114px;
+	width : 117px;
+	background-color:#04659D;
+}
+
+.TabNoticiaDestaques6{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height:114px;
+	width : 117px;
+	background-color:#577506;
+}
+
+.TabNoticiaDestaques7{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height:114px;
+	width : 117px;
+	background-color: #FEA30C;
+}
+
+.TabNoticiaDestaques8{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height:114px;
+	width : 117px;
+	background-color: #061753;
+}
+
+.TabNoticiaDestaques9{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	text-align	 : left;		
+	height:114px;
+	width : 117px;
+	background-color: #bc4301;
+}
+
+.TabNotCamp{
+	/*position:relative;*/
+	left:2px;
+}
+
+.TabBanner{
+	position	: relative;
+	left		: 3px;
+}
+
+.TabBannerRodape{
+	position:relative;
+	left:2px;
+	bottom:-px;
+	
+}
+
+
+.DivVejaMais{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	width		 : 180;
+	text-align	 : left;	
+	margin-bottom:5px;
+}
+
+
+.TxtDivVejaMais{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	width		 : 180;
+	text-align	 : left;	
+	text-decoration:none;
+}
+
+a.TxtDivVejaMais:hover{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 10px;
+	color		 : #fff;
+	width		 : 180;
+	text-align	 : left;	
+	text-decoration:underline;
+}
+
+.DivChamada{
+	height:76px;
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 16px;
+	color		 : #fff;
+	width		 : 180;
+	align		 : center;
+	text-align	 : left;	
+}
+
+
+
+.TxtDivChamada{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 16px;
+	color		 : #fff;
+	text-decoration:none;
+}
+
+a.TxtDivChamada:hover{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 16px;
+	color		 : #fff;
+	text-decoration:underline;
+	cursor:pointer;
+	cursor:hand;
+}
+
+a.txtMaisAtracoes {
+	font-family			: Trebuchet MS, Arial;
+	font-size			: 9px;
+	color				: #000000;
+	text-decoration		: none;
+}
+
+a.txtMaisAtracoes:hover {
+	font-family			: Trebuchet MS, Arial;
+	font-size			: 9px;
+	color				: #000000;
+	text-decoration		: underline;
+	cursor:pointer;
+	cursor:hand;
+}
+
+.LinkEnqueteAnteriores{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 12px;
+	color		 : #fff;
+	text-decoration:none;
+}
+
+a.LinkEnqueteAnteriores:hover{
+	font-weight	 : bold;	
+	font-family  : Arial;
+	font-size	 : 12px;
+	color		 : #fff;
+	text-decoration:underline;
+}
+
+.TdNoticiaCamp4{
+	width		 : 202;
+	background-color: #394805;
+}
+/* background dos destaques */
+
+.TdNoticiaCamp0{
+	width		 : 202;
+	background-color: #262626;
+}
+
+.TdNoticiaCamp1{
+	width		 : 202;
+	background-color: #9D0404;
+}
+
+.TdNoticiaCamp5{
+	width		 : 202;
+	background-color: #04659D;
+}
+
+.TdNoticiaCamp6{
+	width		 : 202;
+	background-color: #577506;
+}
+
+.TdNoticiaCamp7{
+	width		 : 202;
+	background-color: #FEA30C;
+}
+
+.TdNoticiaCamp8{
+	width		 : 202;
+	background-color: #061753;
+}
+
+.TdNoticiaCamp9{
+	width		 : 202;
+	background-color: #bc4301;
+}
+
+.DivTitNotCampHome{
+padding-top:3px;
+	width		 : 202;
+	height		 : 28px;
+}
+
+a.SpanTitNotCampHome{
+/*	position		:relative;*/
+	top				:3px;
+	left			:10px;
+	padding-top:10px;
+	padding-left:10px;
+	text-transform	: uppercase;
+	font-weight	 	: bold;	
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 14px;
+	color		 	: #fff;
+	text-decoration	: none;
+}
+
+a.SpanTitNotCampHome:hover{
+/*	position		:relative;*/
+	top				:3px;
+	left			:10px;
+	padding-top:10px;
+	padding-left:10px;
+	text-transform	: uppercase;
+	font-weight	 	: bold;	
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 14px;
+	color		 	: #fff;
+	text-decoration	: underline;
+}
+/* final dos estilos de noticias em destaque*/
+
+
+.FotoNotHomeCamp{
+	/*margin-top:28px;*/
+	height:112; 
+	width:202;
+}
+ 
+ .TabDestaque7{
+	position			: relative;
+	float				: center;
+	width				: 202px;
+	/*height				: 200px;*/
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bNoticiaItaliano.jpg');
+	background-repeat	: no-repeat;
+	
+}
+
+.TabDestaque5{
+	position			: relative;
+	float				: center;
+	width				: 202px;
+/*	height				: 200px;*/
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bNoticiaIngles.jpg');
+	background-repeat	: no-repeat;
+	
+}
+
+
+.TabDestaque6{
+	position			: relative;
+	float				: center;
+	width				: 202px;
+	/*height				: 200px;*/
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bNoticiaPortugues.jpg');
+	background-repeat	: no-repeat;
+	
+}
+
+
+.DivTitVideos{
+	height			: 18px;
+	font-family 	: Trebuchet MS, Arial;
+	font-size		: 9px;
+	color			: #000;
+
+	text-align		: left;	
+	/*border		: 1px solid #000;*/
+	vertical-align	: top;
+	padding-left	: 3px;
+	padding-right	: 2px;
+}
+
+
+#DivSuperBanner{
+	position			:relative;
+	background-color	: #990100;
+	width				: 100%;
+	text-align			: center;
+}
+
+.SpanNavegacaoProx{
+	line-height:10px;
+	/*border: 1px solid #000;*/
+	height:10px;
+	width:55px;
+	position: relative;
+	
+	top		:-179px;
+	_top	:-183px;
+	
+	left	:370px;
+	_left	:377px;
+	
+	cursor:hand;
+}
+.SpanNavegacaoAnt{
+	line-height		: 10px;
+	/*border			: 1px solid #000;*/
+	height			: 10px;
+	width			: 55px;
+	position		: relative;
+	top				: -179px;
+	_top			: -183px;
+	left			: 170px;
+	_left			: 157px;
+	cursor			: hand;
+}
+
+.SpanNavegacao{
+	font-family		: Verdana;
+	font-size		: 9px;
+	color			: #FFF;
+	text-decoration	: none;
+}
+
+
+a.SpanNavegacao:hover{
+	font-family		: Verdana;
+	font-size		: 9px;
+	color			: #F4FF02;
+	text-decoration	: none;
+}
+
+.DIVConteudoProgramacao {
+	position			: relative;
+	float				: left;
+
+	left				: 2px;
+	height				: 130px;
+	width				: 158px;
+
+	border				: 1px solid #990000;
+	background-color	: #202020;
+
+	margin-top			: 4px;
+}
+
+.DivPassandoAgora {
+	position			: relative;
+	float				: left;
+	left				: 2px;
+	height				: 81px;
+	width				: 158px;
+
+	border				: 1px solid #990000;
+	background-color	: #202020;
+}
+
+.DIVTitAgora {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	text-align			: center;
+	padding-top			: 3px;
+	padding-bottom		: 2px;
+}
+
+.DIVFooterAgora {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	text-align			: center;
+	padding-top			: 4px;
+	_padding-top		: 2px;
+}
+
+.DIVTituloAgora {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	text-align			: center;
+	background-color	: #CBCCCB;
+	font-family			: Verdana;
+	font-weight			: bold;
+	font-size			: 10px;
+	color				: #000000;
+}
+
+.DIVChamadaAgora {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	text-align			: center;
+	background-color	: #CBCCCB;
+	font-family			: Verdana;
+	font-weight			: bold;
+	font-size			: 10px;
+	color				: #CC3300;
+}
+
+.DIVHoraProgramacao {
+	position			: relative;
+	float				: left;
+	width				: 34px;
+	_height				: 13px;
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	background-color	: #CBCCCB;
+}
+
+.DIVCanalProxima {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	_height				: 13px;
+	text-align			: left;
+	background-color	: #CBCCCB;
+	font-family			: Verdana;
+	font-weight			: bold;
+	font-size			: 9px;
+	color				: #CC3300;
+}
+
+.DIVChamadaProxima {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	_height				: 13px;
+	text-align			: left;
+	background-color	: #CBCCCB;
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+}
+
+.DIVTipoProxima {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	_height				: 13px;
+	text-align			: center;
+	background-color	: #CBCCCB;
+	font-family			: Verdana;
+	font-size			: 9px;
+	font-weight			: bold;
+	color				: #FF6600;
+	text-transform		: uppercase;
+}
+
+.DIVEspacoProxima {
+	position			: relative;
+	float				: left;
+	height				: 10px;
+	line-height			: 10px;
+}
+
+.DIVProgramacaoTempInterna {
+	position			: relative;
+	float				: left;
+	left				: 35px;
+	_left				: 2px;
+	height				: 202px;
+	width				: 138px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgProgramacaoTempInterna.jpg');
+	background-repeat	: no-repeat;
+}
+
+.DIVTitFaltam1Interna {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	margin-top			: 109px;
+	text-align			: center;
+	line-height			: 17px;
+
+	font-family			: Trebuchet MS;
+	font-size			: 17px;
+	font-weight			: bold;
+	color				: #FFFFFF;
+}
+
+.DIVProgramacaoComoInterna {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	text-align			: center;
+	margin-top			: 0px;
+}
+
+.DIVProgramacaoTemp {
+	position			: relative;
+	float				: left;
+	left				: 2px;
+	height				: 202px;
+	width				: 160px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgProgramacaoTemp.jpg');
+	background-repeat	: no-repeat;
+}
+
+.DIVTitFaltam1 {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	margin-top			: 130px;
+	text-align			: center;
+	line-height			: 17px;
+
+	font-family			: Trebuchet MS;
+	font-size			: 17px;
+	font-weight			: bold;
+	color				: #FFFFFF;
+}
+
+.DIVTitFaltam2 {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	text-align			: center;
+
+	font-family			: Trebuchet MS;
+	font-size			: 14px;
+	line-height			: 15px;
+	font-weight			: bold;
+	color				: #FFFFFF;
+}
+
+.DIVTitFaltam3 {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	text-align			: center;
+
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	line-height			: 13px;
+	font-weight			: bold;
+	color				: #FFFFFF;
+}
+
+.DIVProgramacaoComo {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	text-align			: center;
+	margin-top			: 5px;
+}
+/******************************************************/
+.DIVConteudoProgramacaoInterna {
+	position			: relative;
+	float				: left;
+
+	left				: 32px;
+	_left				: 2px;	
+	height				: 130px;
+	width				: 138px;
+
+	border				: 1px solid #990000;
+	background-color	: #202020;
+
+	margin-top			: 14px;
+	_margin-top			: 4px;
+}
+
+.DivPassandoAgoraInterna {
+	position			: relative;
+	float				: left;
+	left				: 32px;
+	_left				: 2px;
+	height				: 81px;
+	width				: 138px;
+
+	border				: 1px solid #990000;
+	background-color	: #202020;
+}
+
+.DIVTitAgoraInterna {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	text-align			: center;
+	padding-top			: 3px;
+	padding-bottom		: 2px;
+}
+
+.DIVFooterAgoraInterna {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	text-align			: center;
+	padding-top			: 4px;
+	_padding-top		: 2px;
+}
+
+.DIVTituloAgoraInterna {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	_height				: 13px;
+	text-align			: center;
+	background-color	: #CBCCCB;
+	font-family			: Verdana;
+	font-weight			: bold;
+	font-size			: 10px;
+	color				: #000000;
+	
+}
+
+.DIVChamadaAgoraInterna {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	_height				: 13px;
+	text-align			: center;
+	background-color	: #CBCCCB;
+	font-family			: Verdana;
+	font-weight			: bold;
+	font-size			: 10px;
+	color				: #CC3300;
+	
+}
+
+.DIVHoraProgramacaoInterna {
+	position			: relative;
+	float				: left;
+	left				: 4px;
+	width				: 34px;
+	_height				: 13px;
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	background-color	: #CBCCCB;
+
+	
+}
+
+.DIVCanalProximaInterna {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	height				: 13px;
+	text-align			: left;
+	background-color	: #CBCCCB;
+	font-family			: Verdana;
+	font-weight			: bold;
+	font-size			: 9px;
+	color				: #CC3300;
+	
+	
+}
+
+.DIVChamadaProximaInterna {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	height				: 13px;
+	text-align			: left;
+	background-color	: #CBCCCB;
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	
+}
+
+.DIVTipoProximaInterna {
+	position			: relative;
+	float				: left;
+	width				: 100%;
+	height				: 13px;
+	text-align			: center;
+	background-color	: #CBCCCB;
+	font-family			: Verdana;
+	font-size			: 9px;
+	font-weight			: bold;
+	color				: #FF6600;
+	text-transform		: uppercase;
+}
+
+.DIVEspacoProximaInterna {
+	position			: relative;
+	float				: left;
+	height				: 10px;
+	line-height			: 10px;
+}
+/******************************************************/
+
+.tdBgMaisAtracoes{
+	height:28px;
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bMaisAtracoes.jpg');
+	background-repeat	: no-repeat;
+}
+
+
+.TitProg{
+	height :30px;
+	with: 158px;
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/tit_programacao.gif');
+	background-repeat	: no-repeat;
+}
+
+.TabMaisAtracoes {
+	position			: relative;
+	left:3px;
+	_left:3px;
+	margin-top			: -136px;
+	width:615;
+	_width:620;
+
+}
+
+.TabConteudoHome1{
+	height:340;
+/*	border:1px solid #000;*/
+	width:617;
+	_width:620;
+	background-color:#fff;
+/*	margin-top:-30px;*/
+	_margin-top:;
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bgTabHome.jpg');
+	background-repeat	: no-repeat;
+}
+
+
+
+/*########################## NOVOS CSS DA HOME ##########################*/
+
+
+
+.TabNoticia1{
+	background-color :#fff;
+	/*width: 450px;*/
+}
+
+.DivVideosPrincipalTxt{
+	width:63px; 
+	height:1; 
+	position:absolute;
+	left:540px;
+	top: ;
+	_top:;
+	_left:;
+}
+.DivVideosPrincipal{
+	width:200px;
+	_width:141px; 
+	height:70; 
+	float:left; 
+	_position:relative; 
+	margin-top:20px;  
+}
+
+
+
+.TabVideo{
+	margin-top:1px;
+	width:620;
+	_width:620;
+	background-color:#fff;
+}
+
+.fontBarraTipo{
+	text-transform	: uppercase;
+	font-family		: Verdana;
+	font-size		: 8px;
+	color			: #000;	
+	font-weight		: bold;	
+	width			: 127px;
+	height			: 10px;	
+	text-align		: center;
+
+}
+
+.TabEnqueteResult{
+	margin-left : 5px;
+	margin-top :  5px;
+}
+
+.RespEnqueteResult{
+	font-family		:Verdana;
+	font-size		: 10px;
+	color			: #FFF;
+	text-decoration	: none;
+	
+}
+
+
+.DivEnviaAmigo{
+	position : relative;
+	top		 : -15px;
+	left	 : 330px;
+	width	 : 50px;
+	height	 : 10px;
+	cursor	 : hand;
+}
+
+.bottomPrincipal_Video{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/bottomPrincipal_Video.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+}
+
+.TitEnviaAmigo{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #931A1A;
+	font-weight		: bold;
+	position		: relative;
+	left			: 15px;
+}
+
+.labelEnviaAmigo{
+	font-family	: Verdana;
+	font-size	: 9px;
+	color		: #336699;
+	font-weight	: bold;
+	position	: relative;
+	left		: 18px;	
+	top			: 3px;
+	border 		: 2px solid #003366;
+	height		: 17;
+	width		: 179;
+}
+
+
+.fundoComentario{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/fundoComentario.jpg');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	height				: 135px;
+	width				: 590px;
+	position			: relative;
+	_top					: -13px
+}
+
+.fundoEnviaAmigo{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/fundoEnviaAmigo.gif');
+	background-repeat	: repeat;
+	border				: 0;
+	background-color	: #FFF;
+}
+
+.topPrincipal_Video{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/topPrincipal_Video.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+}
+
+.leftPrincipal_Video{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/leftPrincipal_Video.gif');
+	background-repeat	: repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 6px;
+}
+
+.meioPrincipal_Video{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/meioPrincipal_Video.gif');
+	background-repeat	: repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 6px;
+}
+.rightPrincipal_Video{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/rightPrincipal_Video.gif');
+	background-repeat	: repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 6px;
+}
+
+.TitControle{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/tit_controle.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 25px;
+}
+
+.TitArquivo{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/tit_arquivo.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 25px;
+}
+
+.TitDestaque{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/tit_destaque.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 15px;
+}
+
+.TitVideoSemana{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/tit_videosemana.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+
+.TitTipo5{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_einews.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.TitTipo13{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_radicalbr.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.TitTipo6{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_jogada.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.TitTipo22{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_atemporada.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.TitTipo7{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_craque.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+
+.TitTipo8{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_estrelas.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.TitTipo12{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_pilulas.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.TitTipo15{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_lance_qualidade.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.TitCampeonato1{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_italiano.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.TitCampeonato5{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_ingles.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.TitCampeonato6{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/tit_portugues.gif');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.TitCampeonato10{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/videos/abas/sulamericanosub17.jpg');
+	background-repeat	: no-repeat;
+	border				: 0;
+	background-color	: #FFF;
+	width				: 127px;
+	height				: 20px;
+	Border				: 2px solid #000;
+	position			: relative;
+	top					: 3px;
+	left				:-2px;
+}
+
+.MenuControle{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #FFF;
+	text-decoration	: none;
+}
+
+a.MenuControle:hover{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #FFF;
+	text-decoration	: underline;
+}
+
+.TextAreaComentario{
+	height		  : 90px;
+	width 		  : 270px;
+	margin-left   : 15px;
+	margin-bottom : 15px;
+	}
+
+.BotaoEnviar{
+	position  	: relative;
+	top		  	: -13px;
+	left	  	: 230px;
+	width		: 60px;
+	height		: 12px;
+	cursor		: hand;
+	
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/bot_Enviar.gif');
+	background-repeat	: no-repeat;
+}
+
+.BotaoEnviarEnquete{
+	position	: relative;
+	top			: 20px;
+	width		: 60px;
+	height		: 12px;
+	cursor		: hand;
+	
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/imagens/bot_Enviar.gif');
+	background-repeat	: no-repeat;
+}
+
+.TitComentarios{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #FFF;
+	text-decoration	: none;
+	font-weight 	: bold;
+	
+	margin-left 	: 15px;
+	margin-top  	: 5px;
+}
+
+.DivEnquete{
+	height 		: 10px;
+	width  		: 250px;
+	float		: left;
+	position	: relative;
+}
+
+.TitEnquete{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #FFF;
+	text-decoration	: none;
+	font-weight 	: bold;
+	
+	margin-left 	: 5px;
+	margin-top 		: 5px;
+}
+
+.TabEnquete{
+	margin-left : 5px;
+	margin-top  : 5px;
+}
+
+.DivRespEnquete{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #FFF;
+	text-decoration	: none;
+	margin-top		: -13px;
+	margin-left		: 20px;
+	width			: 265px;
+	
+	_margin-left	: 5px;
+	_width			: 127px; 
+	_position		: absolute; 
+	_float			: left; 
+	_text-align		: left; 
+	_vertical-align	: middle;
+	_margin-top		: 5px;
+	
+}
+
+.DivRadioRespEnquete{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #FFF;
+	text-decoration	: none;
+
+	_width			: 141px; 
+	_float			: left; 
+	_height			: 10; 
+	_position		: relative; 
+	_margin-top		: 6px;
+}
+
+.TabControle{
+	border	: 2px solid #999999;
+}
+
+.TabDestaque{
+	border			 : 2px solid #999999;
+	background-color : #CCC;
+}
+
+.TabVideoSemana{
+	border			 : 2px solid #999999;
+	background-color : #740707;
+}
+
+.TabControleMenu{
+	background-color : #BB1F1F;
+	border-bottom	 : 1px solid #FFFFFF;
+}
+
+.TabControleMenuFim{
+	background-color : #BB1F1F;
+}
+
+.TitComentVideo
+{
+	font-family	: Verdana;
+	font-size	: 10px;
+	color		: #FFF;
+}
+
+.DiaVideo
+{
+	font-family	: Verdana;
+	font-size	: 10px;
+	color		: #FFCC00;
+	font-weight	: bold;
+	padding-top : 7px;
+}
+
+.HoraVideo
+{
+	font-family	: Verdana;
+	font-size	: 10px;
+	color		: #FFCC00;
+	font-weight	: bold;
+}
+
+.TitProxVideo
+{
+	font-family		: Verdana;
+	font-size		: 9px;
+	color			: #FFF;
+	line-height 	: 9pt;
+	word-spacing	: 1;
+	vertical-align	: top
+}
+
+.IntroVideos
+{
+	font-family	: Verdana;
+	font-size	: 9px;
+	color		: #000;
+	font-weight	: bold;
+	padding		: 7px;
+	text-align 	: justify;
+}
+
+.TitVideos
+{
+	font-family	 : Verdana;
+	font-size	 : 16px;
+	color		 : #003366;
+	font-weight	 : bold;
+	
+	padding-left : 5px;
+}
+
+.TitVideoDestaque{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #6E0000;
+	text-align		: justify;
+	text-decoration	: none;
+}
+
+
+.DiaVideoSemana
+{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #FFF;
+	text-decoration	: none;
+}
+
+.DiaVideoSemanaBusca
+{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #7C3131; 
+	text-decoration	: none;
+}
+
+a.DiaVideoSemana:hover
+{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #FFF;
+	text-align		: justify;
+	text-decoration	: underline;
+}
+
+.TxtVideoSemana
+{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #FFCC00;
+	text-decoration	: none;
+}
+
+a.TxtVideoSemana:hover
+{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #FFCC00;
+	text-align		: justify;
+	text-decoration	: underline;
+}
+
+a.TitVideoDestaque:hover{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #6E0000;
+	text-align		: justify;
+	text-decoration	: underline;
+}
+
+
+.NovoCadastro{
+	margin-top		: 10px;
+	font-family		: Verdana;
+	font-size		: 11px;
+	color			: #880101;
+	text-align		: justify;
+	text-decoration	: none;
+}
+
+a.NovoCadastro:hover{
+	font-family		: Verdana;
+	font-size		: 11px;
+	color			: #880101;
+	text-align		: justify;
+	text-decoration	: underline;
+}
+
+.Competicao{
+	font-family		: Verdana;
+	font-size		: 10px;
+	color			: #000;
+	text-align		: justify;
+	padding-left	: 10px;
+	padding-right	: 10px;
+}
+
+
+
+.Menu
+{
+	font-family	: Verdana;
+	font-size	: 10px;
+	color		: #7C3131;
+}
+
+.TitutloInterno
+{
+	font-family		: Verdana;
+	font-size		: 12px;
+	color			: #247AD2;
+	text-decoration	: none;
+	font-weight		: bold;
+}
+
+.LinkDetalhe
+{
+	font-family		: Verdana;
+	font-size		: 11px;
+	color			: #336699;
+	text-decoration	: none;
+	font-weight		: bold;
+}
+
+.LinkDetalhe2
+{
+	font-family		: Verdana;
+	font-size		: 11px;
+	color			: #000000;
+	text-decoration	: none;
+	font-weight		: bold;
+}
+
+a.LinkDetalhe2:hover
+{
+	font-family		: Verdana;
+	font-size		: 11px;
+	color			: #000000;
+	text-decoration	: none;
+	font-weight		: bold;
+	text-decoration : underline;
+}
+
+.TabelaInt
+{
+	font-family  : Verdana;
+	font-size	 : 10px;
+	color		 : #003399;
+	height		 : 20px;
+}
+
+.TabelaIndex
+{
+	font-family : Verdana;
+	font-size	: 10px;
+	color 		: #003399;
+}
+
+.TdClassificacao
+{
+	border : 1px solid #FFF;
+}
+
+#DIVGeralHome {
+	position	: relative;
+	float		: center;
+	width		: 777px;
+	width		: 777px;
+	left		: 50%;
+	margin-left	: -390px;
+	background-color  : #990100;
+}
+
+#DIVHeader {
+	position	: relative;
+	float		: center;
+	width		: 768px;
+	height		: 160px;
+
+	background-image  : url('/web/20071009091745im_/http://www.esporteinterativo.com.br/admin/img/bgHeader.jpg');
+	background-repeat : no-repeat;
+}
+
+#DIVBandHome {
+	position	: relative;
+	float		: center;
+	width		: 777px;
+	height		: 30px;
+
+	background-color	: #990100;
+}
+
+#DIVLoginHome{
+	postion			: relative;
+	float			:left;
+	height			: 45px;
+	width			: 350px;
+	margin-left		: 13px;
+	margin-top		: 3px;
+	/*border			:1px solid #000;*/
+}
+
+#TabLogin {
+	position	 : relative;
+	float		 : left;
+	left		 : 60px;
+	_left		 : 55px;
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 12px;
+	color		 : #fff;
+	width		 : 370px;
+}
+
+.TxtEsqueciSenha {
+
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 11px;
+	color		 	: #FFCC00;
+	font-weight	 	: bold;	
+	text-decoration : none;
+}
+
+a.TxtEsqueciSenha:hover {
+
+	font-family  	: Trebuchet MS, Arial;
+	font-size	 	: 11px;
+	color		 	: #FFCC00;
+	font-weight	 	: bold;	
+	text-decoration : underline;
+}
+
+.TxtQuotHome{
+	font-family  : Trebuchet MS, Arial;
+	font-size	 : 15px;
+	color		 : #FFCC00;
+	font-weight	 : bold;	
+	margin-left  : 10px;
+	margin-right : 5px;
+}
+.cTXTInputLogin {
+	height				: 15px;
+	border				: 1px solid #003366;
+
+	font-family			: Verdana;
+	font-size			: 9px;
+	line-height			: 10px;
+	width				: 145px;
+	height				: 17px;
+}
+
+.cTXTInputBusca {
+	height				: 15px;
+	border				: 1px solid #003366;
+
+	font-family			: Verdana;
+	font-size			: 9px;
+	line-height			: 10px;
+	width				: 145px;
+	height				: 17px;
+}
+
+.cTXTInputBusca2 {
+	height				: 15px;
+	border				: 1px solid #003366;
+
+	font-family			: Verdana;
+	font-size			: 9px;
+	line-height			: 10px;
+	width				: 110px;
+	height				: 17px;
+}
+
+
+.cTXTInputData {
+	height				: 15px;
+	border				: 1px solid #003366;
+
+	font-family			: Verdana;
+	font-size			: 9px;
+	line-height			: 10px;
+	width				: 70px;
+	height				: 17px;
+}
+
+.cTXTInputCateg {
+	height				: 15px;
+	border				: 1px solid #003366;
+
+	font-family			: Verdana;
+	font-size			: 9px;
+	line-height			: 10px;
+	width				: 145px;
+	height				: 17px;
+}
+
+.cTXTInputSenha {
+	height				: 15px;
+	border				: 1px solid #003366;
+
+	font-family			: Verdana;
+	font-size			: 9px;
+	line-height			: 10px;
+	width 				: 112px;
+	height				: 17px;
+}
+
+.LinkHomeBannerHome{
+	postion			: relative;
+	height			: 68px;
+	width			: 160px;
+	margin-left		: 7px;
+	margin-top		: 3px;
+	cursor			: hand;
+	float			: left;
+
+}
+
+#DIVBgHeader {
+	position	: relative;
+	float		: center;
+	width		: 778px;
+	height		: 66px;
+	_height		: 70px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/upload/header/bgHeader.jpg');
+	background-repeat	: no-repeat;
+}
+
+#DIVBgHeaderHome {
+	width		: 777px;
+	_width		: 777px;
+	height		: 72px;
+	_height		: 72px;
+	position	:relative;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bgHeader.jpg');
+	background-repeat	: repeat;
+
+}
+
+.TabConteudoHome {
+	position	: relative;
+	float		: left;
+	/*top			: 30px;*/
+	_top		: 0px;
+	background-color	: #FFF;
+}
+
+#DIVMioloHome {
+	position	: relative;
+	float		: left;
+
+	_top : ;
+	width		: 777px;
+	_width		: 778px;
+	background-color	: #990100;
+}
+
+#DIVBarraEsquerdaHome {
+	position		: relative;
+	float			: left;
+	left 			: 5px;
+	width			: 150px;
+	_width			: 157px;
+
+	padding-right	: 7px;
+	_height			: 100%;
+	background-color	: #990100;
+}
+
+#DIVConteudoHome {
+	position		: relative;
+	float			: left;
+	width			: 430px;
+	_width			: 463px;
+	/*height			: 100%;	*/
+	_height			: 715px;
+
+	background-color: #990100;
+}
+
+
+#DIVBarraDireita {
+	position		: relative;
+	float			: left;
+	width			: 143px;
+	_width			: 147px;
+	top				: -72px;
+	padding-left	: 8px;
+	padding-right	: 7px;
+	
+	_padding-left	: 5px;
+	_padding-right	: 0px;
+	
+	
+	height			: 100%;
+	
+
+
+}
+/*************************************************/
+
+/*************** Formulários**********************/
+.txtFormGeral {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #003366;
+}
+
+.cTXTSelect {
+	height				: 15px;
+	font-family			: Verdana;
+	font-size			: 9px;
+	line-height			: 10px;
+}
+
+.cTXTInput {
+	height				: 15px;
+	border				: 1px solid #003366;
+
+	font-family			: Verdana;
+	font-size			: 9px;
+	line-height			: 10px;
+}
+
+.cTXTTextArea {
+	height				: 80px;
+	border				: 1px solid #003366;
+	font-family			: Verdana;
+	font-size			: 9px;
+	line-height			: 10px;
+}
+/*************************************************/
+
+/*************** Clube E+I ***********************/
+#DIVClubeEI {
+	/*position			: relative;
+	*/
+	float				: center;
+	width				: 130px;
+
+}
+
+#DIVTitClubeEI {
+	/*position			: relative;
+	float				: center;
+	width				: 145px;
+	height				: 32px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgTitClubeEI.jpg');
+	background-repeat	: no-repeat;*/
+}
+
+.TabClubeEI{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/banner_interatividade.gif');
+	background-repeat	: no-repeat;
+	height				: 180px;
+}
+
+.DivClubeEIValide{
+	/*border:1px solid #000;*/
+	width		: 140px;
+	height		: 117px;
+	position	: relative;
+	top			: -15px;
+	cursor		: hand;
+}
+
+.DivClubeEICadastro{
+/*	border:1px solid #fff;*/
+	width	: 140px;
+	height	: 30px;
+	cursor	: hand;
+	margin-top : 110px;
+}
+
+
+#DIVConteudoClubeEI {
+	position			: relative;
+	float				: center;
+	width				: 100px;
+	_width				: 130px;
+
+	/*margin-top=-7px;
+	padding-top			: 5px;
+	padding-left		: 10px;
+	padding-bottom		: 10px;
+	background-color	: #E6EAF7;
+	border-left			: 1px solid #85B3E5;
+	border-right		: 1px solid #85B3E5;*/
+
+}
+
+#DIVFooterClubeEI {
+	position			: relative;
+	float				: center;
+	width				: 145px;
+	height				: 10px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgFooterClubeEI.jpg');
+	background-repeat	: no-repeat;
+}
+
+.cTXTClubeEI {
+	font-family			: Verdana;
+	font-size			: 9px;
+}
+
+/*.TabLogadoClubeEi{
+	width	: 143px;
+	height	: 165px;
+	background-color : #FFF;
+}
+
+
+.cTxtTitPlanoFidelidade
+{
+	text-align			: center;
+	font-family			: Arial;
+	font-weight	 		: bold;	
+	font-size			: 12px;
+	color				: #FFF;
+	height				: 25px;
+	background-color 	: #134165;
+}*/
+/*************************************************/
+
+/********************* MENU **********************/
+#DIVMenu {
+	position			: relative;
+	float				: center;
+	width				: 145px;
+}
+
+#DIVHeaderMenu {
+	position			: relative;
+	float				: center;
+	width				: 145px;
+	height				: 7px;
+	line-height			: 7px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgHeaderMenu.jpg');
+	background-repeat	: no-repeat;
+	border:2px solid #000;
+}
+
+#DIVHeaderMenuHome {
+	position			: relative;
+	float				: center;
+	top:2px;
+	width				: 145px;
+	height				: 7px;
+	line-height			: 7px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgHeaderMenu.jpg');
+	background-repeat	: no-repeat;
+	
+}
+
+.SetaMenu{
+	position: relative;
+	top:7px;
+	right:2px;
+	_top:2px;
+	float:left;
+	vertical-align:middle;
+	height: 18px;
+	width : 5px;
+
+}
+
+#DIVConteudoMenu {
+	position			: relative;
+	float				: center;
+	width				: 143px;
+	_width				: 145px;
+
+	background-color	: #FFFFFF;
+	border-left			: 1px solid #ECD6D6;
+	border-right		: 1px solid #ECD6D6;
+}
+
+#DIVFooterMenu {
+	position			: relative;
+	float				: center;
+	width				: 145px;
+	height				: 10px;
+	background-color	: #990100;
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgFooterMenu.jpg');
+	background-repeat	: no-repeat;
+}
+
+.cTXTMenu1 {
+	font-family			: Verdana;
+	font-size			: 10px;
+	font-weight			: bold;
+	color				: #990000;
+	padding-left		: 10px;
+	line-height			: 17px;
+}
+
+.cTXTMenu2 {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #003366;
+	padding-left		: 10px;
+	background-color	: #F6E6E6;
+	border-top			: 1px solid #ECD6D6;
+	line-height			: 17px;
+}
+
+.cTXTMenuLink {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000;
+	background-color	: #F6E6E6;
+	line-height			: 17px;
+	text-decoration		: none;
+}
+
+.cTXTMenuLink2 {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #990000;
+	line-height			: 17px;
+	text-decoration		: none;
+}
+
+.EmBreve {
+	font-family			: Verdana;
+	font-size			: 14px;
+	color				: #333;
+	text-decoration		: none;
+	font-weight			: bold;
+	text-align			: center;
+}
+
+.DlgTv{
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				:#F1E307; 
+	height				:1;
+	width				:1; 
+	background-color	:#3F464E;
+	margin-right		:100px;
+	padding-right		:2px;
+	padding-left		:2px;
+
+}
+
+.cTXTMenu3 {
+	font-family			: Verdana;
+	font-size			: 10px;
+	font-weight			: bold;
+	color				: #990000;
+	padding-left		: 10px;
+	background-color	: #FFFFFF;
+	border-top			: 1px solid #ECD6D6;
+	line-height			: 17px;
+}
+/*************************************************/
+
+/*************** Pogramação **********************/
+#DIVProgramacao {
+	position			: relative;
+	float				: center;
+	width				: 143px;
+	top					: 10px;
+
+}
+
+#DIVTitProgramacao {
+	position			: relative;
+	float				: center;
+	width				: 143px;
+	height				: 28px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgTitProgramacao2.jpg');
+	background-repeat	: no-repeat;
+}
+
+#DIVTitProgramacaoFinal{
+	position			: relative;
+	float				: center;
+	width				: 143px;
+	height				: 28px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgTitProgramacaoFinal.jpg');
+	background-repeat	: no-repeat;
+	
+}
+
+#DIVConteudoProgramacao {
+	position			: relative;
+	float				: center;
+	width				: 141px;
+	_width				: 143px;
+	border-left			: 1px solid #FFF;
+	border-right		: 1px solid #FFF;	
+}
+
+.cBGProgramacao0 {
+	background-color	: #E6EAF7;
+}
+
+.cBGProgramacao1 {
+	background-color	: #B0B2C5;
+}
+
+.cTXTProgramacao {
+	font-family			: Verdana;
+	font-size			: 9px;
+	text-align			: center;
+}
+
+.cBGLinhaProgramacao {
+	position			: relative;
+	height				: 1px;
+	background-color	: #1C5C9E;
+}
+/*************************************************/
+
+
+
+/*************** Campeonatos Internos **********************/
+#DIVCampeonatos {
+	position			: relative;
+	left				: 32px;
+	_left				: ;
+	float				: center;
+	width				: 143px;
+	background-color	: #990000;
+
+
+}
+
+#DIVHeaderCampeonatos {
+	position			: relative;
+	float				: center;
+	width				: 143px;
+	height				: 9px;
+	line-height			: 9px;
+	margin-top			: 7px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgHeaderCampeonatos.jpg');
+	background-repeat	: no-repeat;
+}
+
+#DIVConteudoCampeonatos {
+	position			: relative;
+	float				: center;
+	width				: 143px;
+}
+
+#DIVFooterCampeonatos {
+	position			: relative;
+	float				: center;
+	width				: 143px;
+	height				: 9px;
+	line-height			: 9px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bgFooterCampeonatos.jpg');
+	background-repeat	: no-repeat;
+}
+
+.cTBLCampeonatos {
+	position			: relative;
+	width				: 143px;
+}
+
+.cBGCampeonatos {
+	background-color	: #FFFFFF;
+}
+
+.cTXTCampeonatos {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #003366;
+	text-align			: left;
+	font-weight			: bold;
+	text-decoration		: none;
+}
+
+.cBGLinhaCampeonatos {
+	position			: relative;
+	height				: 1px;
+	background-color	: #1C5C9E;
+}
+
+.cBGClassificacaoPrimeiros {
+	background-color	: #E6EAF7;
+}
+
+.cBGClassificacaoUltimos {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	background-color	: #BBBCD7;
+	text-decoration		: none;
+}
+
+.cTXTClassificacao {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+/*	border-top			: 1px solid #C2CCEB;*/
+	border-top			: 1px solid #FFF;
+	text-decoration		: none;
+}
+
+.FotoArtilheiro {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+/*	border-top			: 1px solid #C2CCEB;*/
+	border				: 1px solid #000;
+	text-decoration		: none;
+	margin-top			:3px;
+}
+
+
+.cTXTClassificacao2 {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	text-decoration		: none;
+}
+
+.cTBLArtilheiro {
+	position			: relative;
+	width				: 143px;
+	/*background-color	: #E6EAF7;*/
+	background-color	: #FFF;
+}
+
+.cTXTArtilheiroNome {
+	font-family			: Verdana;
+	font-size			: 12px;
+	color				: #0b3297;
+	text-decoration		: none;
+}
+
+.cTXTArtilheiroTime {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	text-decoration		: none;
+}
+
+.cTXTArtilheiroGols {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	font-weight			: bold;
+/*	border-bottom		: 1px solid #C2CCEB;*/
+	text-decoration		: none;
+}
+
+.cTBLDestaque {
+	position			: relative;
+	width				: 143px;
+	background-color	: #E6EAF7;
+}
+
+.cTXTDestaqueNome {
+	font-family			: Verdana;
+	font-size			: 12px;
+	color				: #000099;
+}
+
+.cTXTDestaqueTime {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+}
+
+.cTXTDestaqueGols {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	font-weight			: bold;
+	border-bottom		: 1px solid #C2CCEB;
+}
+/*************************************************/
+
+
+/*************************************************/
+
+/*************** Campeonatos Home **********************/
+#DIVCampeonatosHome {
+	position			: relative;
+	float				: center;
+	width				: 143px;
+}
+
+#DIVHeaderCampeonatos1Home {
+	position			: relative;
+	float				: center;
+	width				: 202px;
+	height				: 284px;
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bClassItaliano.jpg');
+	background-repeat	: no-repeat;
+}
+
+#DIVHeaderCampeonatos5Home {
+	position			: relative;
+	float				: center;
+	width				: 202px;
+	height				: 284px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bClassIngles.jpg');
+	background-repeat	: no-repeat;
+}
+
+
+#DIVHeaderCampeonatos6Home {
+	position			: relative;
+	float				: center;
+	width				: 202px;
+	height				: 284px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bClassPortugues.jpg');
+	background-repeat	: no-repeat;
+}
+
+
+#DIVConteudoCampeonatosHome {
+	position			: relative;
+	float				: left;
+	width				: 202px;
+	
+}
+
+
+.cTBLCampeonatos1Home {
+	background-color	: #9D0404;
+	margin-top 			: 33px;
+}
+
+.cTBLCampeonatos5Home {
+	margin-top 			: 33px;
+	background-color	: #04659D;
+}
+
+.cTBLCampeonatos6Home {
+	margin-top 			: 33px;
+	background-color	: #577506;
+}
+
+.cTBLCampeonatos9Home {
+	background-color	: #bc4301;
+	margin-top 			: 33px;
+}
+
+.TxtTabClassificacaoVejaHome{
+	font-family			: Trebuchet MS;
+	font-size			: 10px;
+	color				: #fff;
+	
+	text-decoration		: none;
+	
+}
+
+.TdVejaTabCompletaHome{
+	 padding-top:7px;
+	_padding-top:0px;
+}
+
+a.TxtTabClassificacaoVejaHome:hover{
+	font-family			: Trebuchet MS;
+	font-size			: 10px;
+	color				: #fff;
+	
+
+	text-decoration		: underline;
+	
+}
+
+.TxtTabClassificacaoHome{
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #fff;
+	
+	font-weight			: bold;
+	text-decoration		: none;
+	
+}
+
+.cTXTCampeonatosHome {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #003366;
+	text-align			: left;
+	font-weight			: bold;
+	text-decoration		: none;
+	background-color	: #9D0404;	
+}
+
+.cBGLinhaCampeonatosHome {
+	position			: relative;
+	height				: 1px;
+	background-color	: #1C5C9E;
+}
+
+.cBGClassificacaoPrimeirosHome {
+	background-color	: #E6EAF7;
+}
+
+.cBGClassificacaoUltimosHome {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	background-color	: #BBBCD7;
+	text-decoration		: none;
+}
+
+.cTXTClassificacao1Home {
+	font-family			: Trebuchet MS;
+	font-size			: 12px;
+	color				: #fff;
+
+	border-bottom 		: 2px solid #7C0505;
+	height				: 20px;
+	text-decoration		: none;
+	font-weight			: bold;
+	background-color	: #400707;	
+}
+
+.cTXTClassificacao5Home {
+	font-family			: Trebuchet MS;
+	font-size			: 12px;
+	color				: #fff;
+	
+	border-bottom 		: 2px solid #054F7C;
+	height				: 20px;
+	text-decoration		: none;
+	font-weight			: bold;
+	background-color	: #072640;	
+}
+
+.cTXTClassificacao6Home {
+	font-family			: Trebuchet MS;
+	font-size			: 12px;
+	color				: #fff;
+	
+	border-bottom 		: 2px solid #577506;
+	height				: 20px;
+	text-decoration		: none;
+	font-weight			: bold;
+	background-color	: #283805;	
+}
+
+.cTXTClassificacao2Home {
+	font-family			: Trebuchet MS;
+	font-size			: 12px;
+	color				: #000000;
+	text-decoration		: none;
+}
+
+
+.cTBLArtilheiroHome {
+	margin-top			: 43px;
+	height 				: 45px;
+	width				: 180px;
+}
+
+.cTXTArtilheiroNomeHome {
+	font-family			: Arial;
+	font-size			: 12px;
+	color				: #fff;
+	text-decoration		: none;
+}
+
+.cTXTArtilheiroTimeHome {
+	font-family			: Arial;
+	font-size			: 12px;
+	color				: #fff;
+	text-decoration		: none;
+}
+
+.cTXTArtilheiroNumGolsHome {
+	font-family			: Arial;
+	font-size			: 18px;
+	color				: #fff;
+/*	border-bottom		: 1px solid #C2CCEB;*/
+	text-decoration		: none;
+}
+.cTXTArtilheiroGolsHome {
+	font-family			: Arial;
+	font-size			: 14px;
+	color				: #fff;
+/*	border-bottom		: 1px solid #C2CCEB;*/
+	text-decoration		: none;
+}
+
+.cTBLDestaqueHome {
+	position			: relative;
+	width				: 143px;
+	background-color	: #E6EAF7;
+}
+
+.cTXTDestaqueNomeHome {
+	font-family			: Verdana;
+	font-size			: 12px;
+	color				: #000099;
+}
+
+.cTXTDestaqueTimeHome {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+}
+
+.cTXTDestaqueGolsHome {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	font-weight			: bold;
+	border-bottom		: 1px solid #C2CCEB;
+}
+/*************************************************/
+
+/****************** Notícias *********************/
+.cTXTTitNoticia {
+	font-family			: Verdana;
+	font-size			: 12px;
+	color				: #0066CC;
+	font-weight			: bold;
+	text-decoration 	: none;
+}
+
+.cTXTIntroNoticia {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #000000;
+	text-decoration 	: none;
+}
+
+a.cTXTIntroNoticia:hover {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #000000;
+	text-decoration 	: underline;
+}
+
+.cTXTRodape {
+	position			:relative;
+	float				:left;
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #7C3131; 
+	text-decoration 	: none;
+
+	background-color	: #fff;
+	width				: 465px;
+	
+
+	_width			: 463px;
+	_margin-left	: ;
+	_height			: ;
+}
+
+.TabSubmarinoNaoLogado{
+	width : 440px;
+	_width : 463px;
+
+}
+.TabCampeonatosInterna {
+	position			 : relative;
+/*	top					 :-30px;*/
+	_top:;
+	vertical-align		: top; 
+	background-color	: #fff;
+	width				: 465px;
+	
+	_width			: 463px;
+	_margin-left	: ;
+	_height			: ;
+}
+.TabConteudoHomeIndex {
+	position		: relative;
+	float			: left;
+	left			:-6 ;
+	_left			: 0;
+	width			: 420;
+	_width			: 463px;
+	height			: 100%;	
+	_height			: 715px;
+	background-color: #FFFFFF;
+
+}
+.cTBLNoticia2 {
+	position			: relative;
+	left				: 5px;
+	float				: left;
+	width				: 140px;
+	margin-left			: 5px;
+	margin-right		: 5px;
+	height				: 120px;
+	overflow-y			: hidden;
+	background-color: #fff;
+
+
+}
+
+.cTBLNoticia4 {
+	position			: relative;
+	left				: 5px;
+	float				: left;
+	width				: 300px;
+	margin-top			: 5px;
+	margin-right		: 13px;
+	
+	background-color	: #ffffff;
+}
+
+.cTBLNoticia3 {
+	position			: relative;
+	float				: left;
+	left				: 5px;
+	width				: 140px;
+	margin-top			: 10px;
+	background-color	: #ffffff;
+}
+
+.cLinkSaibaNoticia {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #0066CC;
+	text-decoration		: underline;
+}
+
+.cTXTTituloNoticia4 {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	line-height			: 15px;
+}
+
+a.cLinkNoticiaHome0 {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	text-decoration		: none;
+}
+
+a.cLinkNoticiaHome0:hover {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #000000;
+	text-decoration		: underline;
+}
+
+.cLinkNoticiaHome1 {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #0066CC;
+	text-decoration		: none;
+	font-weight			: bold;
+}
+
+a.cLinkNoticiaHome1 {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #0066CC;
+	text-decoration		: none;
+	font-weight			: bold;
+}
+
+a.cLinkNoticiaHome1:hover {
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #0066CC;
+	text-decoration		: underline;
+	font-weight			: bold;
+}
+
+.cTDHeaderNoticia {
+	border-bottom		: 1px solid #7c3131;
+	vertical-align		: middle;
+	line-height			: 20px;
+}
+
+.cTDNoticia {
+	padding				: 3px;
+}
+
+.cTXTTitSessaoNoticias {
+	font-family			: Verdana;
+	font-size			: 14px;
+	color				: #7c3131;
+	font-weight			: bold;
+}
+
+.cTXTTitDataNoticia {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #000000;
+	text-align			: right;
+}
+
+.cTXTTituloNoticia {
+	font-family			: Verdana;
+	font-size			: 12px;
+	line-height			: 14px;
+	color				: #7c3131;
+	vertical-align		: top;
+}
+
+.cTXTConteudoNoticia {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #000000;
+}
+
+a.cTXTVoltarNoticia {
+	font-family			: Verdana;
+	font-size			: 12px;
+	color				: #7c3131;
+	text-decoration		: none;
+}
+
+a.cTXTVoltarNoticia:hover {
+	font-family			: Verdana;
+	font-size			: 12px;
+	color				: #7c3131;
+	text-decoration		: underline;
+}
+
+a.cLinkNoticia0 {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #000000;
+	text-decoration		: none;
+}
+
+a.cLinkNoticia0:hover {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #000000;
+	text-decoration		: underline;
+}
+
+a.cLinkNoticia1 {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #0066CC;
+	text-decoration		: none;
+	font-weight			: bold;
+}
+
+a.cLinkNoticia1:hover {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #0066CC;
+	text-decoration		: underline;
+	font-weight			: bold;
+}
+
+a.cLinkRelacionados {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #7c3131;
+	text-decoration		: none;
+}
+
+a.cLinkRelacionados:hover {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #7c3131;
+	text-decoration		: underline;
+}
+/*************************************************/
+
+/******************* Banner **********************/
+.cTBLBanner1 {
+	position			: relative;
+	float				: left;
+	width				: 140px;
+	height				: 120px;
+	overflow-y			: hidden;
+	position:relative; 
+	left:5px;
+	background-color: #fff;
+	
+}
+
+.cDIVBanner2 {
+	position			: relative;
+	float				: left;
+	_width				: 443px;
+	_top				: 10px;
+	_bottom 			: 15px;
+	margin-left			: 3.5px;
+	margin-bottom		: 3.5px;	
+	
+}
+
+.cTBLBanner3 {
+	position			: relative;
+	float				: left;
+	width				: 140px;
+	margin-top			: 10px;
+	margin-left			: 8px;
+	
+	
+	_position			: relative;
+	_float				: left;
+	_width				: 140px;
+	_margin-top			: -10px;
+	_margin-left		: 8px;
+	
+}
+
+.BannerFinal{
+	position 			: relative;
+	float				: left;
+
+	_position 			: relative;
+	_float				: left;
+	_top				: 0px;
+	_left				: 0px;		
+}
+
+.cTBLBanner4 {
+	position			: relative;
+	float				: left;
+	width				: 140px;
+	margin-top			: 15px;
+	left				: -290px;
+	background-color    : #fff;
+	top					: -10px;
+	_width				: 0px;
+	_top				: -15px;
+	_left				: 1px;
+}
+
+.cTBLBanner5 {
+	position			: relative;
+	float				: left;
+	width				: 140px;
+	_width				: 0px;
+	margin-top			: 15px;
+	margin-left			: 8px;
+	_margin-left		: 0px;
+	left				: -290px;
+	_left				: 1px;
+	_top				: -15px;
+	background-color    : #fff;
+}
+
+.cTXTTitBanner {
+	font-family			: Verdana;
+	font-size			: 12px;
+	color				: #0066CC;
+	font-weight			: bold;
+	text-decoration		: none;
+	
+}
+
+a.cTXTTitBanner:hover {
+	font-family			: Verdana;
+	font-size			: 12px;
+	color				: #0066CC;
+	font-weight			: bold;
+	
+	text-decoration		: underline;
+}
+
+.cTXTDescBanner {
+	
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #000000;
+	font-weight			: bold;
+	text-decoration		: none;
+	
+}
+.cTXTDescBanner10 {
+	
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #000000;
+	font-weight			: bold;
+	text-decoration		: none;
+	height				:100%;
+	_height				:;
+
+	
+}
+a.cTXTDescBanner:hover {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #000000;
+	font-weight			: bold;
+	text-decoration		: underline;
+}
+/*************************************************/
+
+/*************** Videos Home *********************/
+.cTXTTitVideo {
+	font-family			: Verdana;
+	font-size			: 12px;
+	color				: #0066CC;
+	font-weight			: bold;
+}
+
+.cTXTDescVideo {
+	font-family			: Verdana;
+	font-size			: 10px;
+	color				: #000000;
+	font-weight			: bold;
+	text-decoration		: none;	
+}
+
+.cTBLVideo {
+	position			: relative;
+	width				: 140px;
+}
+/*************************************************/
+
+
+/********************* Enquete Home **********************/
+#DIVEnquete {
+	position			: relative;
+	float				: center;
+	width				: 145px;
+}
+
+#DIVHeaderEnquete {
+	margin-top 			: 6px;
+	_margin-top 		: ;
+	position			: relative;
+	float				: center;
+	width				: 145px;
+	height				: 27px;
+	
+	background-color	: #990100;
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bgHeaderEnquete.jpg');
+	background-repeat	: no-repeat;
+	
+	/*border:1px solid #fff ;*/
+}
+
+#DIVConteudoEnquete {
+	position			: relative;
+	top					: -16px;
+	_top				: ;
+	float				: center;
+	width				: 143px;
+	_width				: 145px;
+
+/*	background-color	: #291D1D;
+	border-left			: 1px solid #85B3E5;
+	border-right		: 1px solid #85B3E5;*/
+}
+.cTXTRespostaEnquete{
+	font-family			: Trebuchet MS, Arial;
+	font-size			: 10px;
+	font-weight			: bold;
+	color				: #FFF;
+	/*padding-left		: 10px;
+	line-height			: 17px;*/
+	text-weight			: bold;
+
+}
+
+.cTXTEnquetePerg {
+	font-family			: Trebuchet MS, Arial;
+	font-size			: 9px;
+	font-weight			: bold;
+	color				: #FFD801;
+	padding-left		: 10px;
+	line-height			: 17px;
+	text-weight			: bold;
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/home/bgPerguntaEnquete.jpg');
+	background-repeat	: repeat;
+	width				: 145px;
+}
+.cTBLEnqueteHome{
+	width				: 145px;
+	background-color	: #291D1D;
+}
+/*************************************************/
+/************** Classes de Erro ******************/
+.cTXTErro {
+	position			: relative;
+	float				: center;
+	width				: 100%;
+	font-family			: Verdana;
+	font-size			: 9px;
+	color				: #cc0000;
+	text-align			: center;
+}
+/*************************************************/
+
+/*************** Campeonatos **********************/
+#DIVPopup {
+	position			: relative;
+	float				: left;
+	margin-left			: -3px;
+}
+/*************************************************/
+
+/***************** Date-picker *******************/
+.calendar {
+	font-size : 12px;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color : Black;
+}
+
+A.calendar {
+	text-decoration : none;
+	font-size : 12px;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color : Black;
+}
+
+A.calendar:Hover {
+	text-decoration : underline;
+	font-size : 12px;
+	font-style : normal;
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	color : Black;
+}
+
+.Navigation {
+	text-decoration : none;
+	font-size : 10px;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color : White;
+}
+
+A.Navigation {
+	text-decoration : none;
+	font-size : 10px;
+	font-style : normal;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color : White;
+	
+}
+A.Navigation:HOVER {
+	text-decoration : underline;
+	font-size : 10px;
+	font-style : normal;
+	font-family : Verdana,  Arial, Helvetica, sans-serif;
+	color : White;
+}
+/*************************************************/
+
+/************** Cadastro & Login *****************/
+.cTXTAlertaDuplicado {
+	position			: relative;
+	float				: left;
+	font-family			: Verdana;
+	font-size			: 11px;
+	color				: #0066CC;
+	font-weight			: bold;
+	padding				: 10px;
+	line-height			: 20px;
+}
+/*************************************************/
+
+/****************** Comercial ********************/
+.cTXTTitMidiaComercial {
+	font-family			: Verdana;
+	font-size			: 13px;
+	color				: #000000;
+	font-weight			: bold;
+}
+
+
+/****************** Área Celular/Clube ********************/
+.link { text-decoration:none; }
+.link:hover { text-decoration:underline; }
+
+.compre { color:#000000; font-size:10px; text-decoration:none; }
+.compre:hover { color:#000000; font-size:10px; text-decoration:underline; }
+
+.text { color: #666666; font-family: arial; font-size: 11px; }
+.text:hover { color:#666666; text-decoration:underline; }
+
+.txt { color: #0C5399; font-family: arial; font-size: 11px; }
+.tit { color: #666666; font-family: arial; font-size: 12px; }
+
+.menusup { color: #0C5399; font-family: arial; font-size: 12px; }
+
+.tabesc { color:#ffffff; height:25px; font-family: arial; font-size: 11px; background-color: #BCBCBC; }
+.tabcla { color:#6A6A6A; height:25px; font-family: arial; font-size: 11px; background-color: #EFEFEF; padding: 0px 10px 0px 10px; }
+
+.menu { font-family: arial; font-weight: bold; color:#7C3131; text-decoration:none; }
+.menu:hover { color:#7C3131; text-decoration:underline; }
+
+.black { color: Black; font-family: verdana; font-size: 11px; }
+
+/******************** Grade de Programação ************************/
+#DIVSemanaProgramacao {
+	position			: relative;
+	float				: left;
+	width				: 605px;
+	height				: 46px;
+}
+
+.cDIVDiaProgramacao_on {
+	position			: relative;
+	float				: left;
+	margin-right		: 7px;
+	width				: 79px;
+	height				: 39px;
+	_height				: 46px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bDiaProgramacao_on.gif')
+}
+
+.cDIVDiaProgramacao_off {
+	position			: relative;
+	float				: left;
+	margin-right		: 7px;
+	width				: 79px;
+	height				: 39px;
+	_height				: 46px;
+
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/bDiaProgramacao_off.gif')
+}
+
+.cTXTDiaProgramacao {
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #FFFFFF;
+	text-align			: center;
+	text-transform		: uppercase;
+	padding-top			: 7px;
+	text-decoration		: none;
+
+	cursor				: hand;
+}
+
+a.cTXTDiaProgramacao {
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #FFFFFF;
+	text-align			: center;
+	text-transform		: uppercase;
+	padding-top			: 7px;
+	text-decoration		: none;
+}
+
+a.cTXTDiaProgramacao:hover {
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #FFFFFF;
+	text-align			: center;
+	text-transform		: uppercase;
+	padding-top			: 7px;
+	text-decoration		: none;
+}
+
+#cTBLHorasProgramacao {
+	position			: relative;
+	float				: left;
+	width				: 605px;
+	margin-top			: 20px;
+	_margin-top			: 0px;
+}
+
+.cTDHoraProgramacao0 {
+	width				: 50px;
+	font-family			: Verdana;
+	font-size			: 10px;
+	font-weight			: bold;
+	color				: #FFFFFF;
+
+	text-align			: center;
+	background-color	: #484848;
+}
+
+.cTDHoraProgramacao1 {
+	width				: 50px;
+	font-family			: Verdana;
+	font-size			: 10px;
+	font-weight			: bold;
+	color				: #FFFFFF;
+
+	text-align			: center;
+	background-color	: #707070;
+}
+
+.cTDNomeProgramacao0 {
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #000000;
+
+	text-align			: left;
+	background-color	: #EBEAE9;
+	padding-left		: 10px;
+}
+
+.cTDNomeProgramacao1 {
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #000000;
+
+	text-align			: left;
+	background-color	: #F7F7F7;
+	padding-left		: 10px;
+}
+
+.cTDNenhumaProgramacao {
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #000000;
+
+	text-align			: center;
+	background-color	: #EBEAE9;
+	padding-left		: 10px;
+}
+
+
+.cTDTipoProgramacao0 {
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #AA0605;
+
+	text-align			: left;
+	font-weight	 		: bold;	
+	text-transform		: uppercase;
+	background-color	: #EBEAE9;
+	padding-left		: 10px;
+}
+
+.cTDTipoProgramacao1 {
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #AA0605;
+
+	text-align			: left;
+	font-weight	 		: bold;	
+	text-transform		: uppercase;
+	background-color	: #F7F7F7;
+	padding-left		: 10px;
+}
+
+
+/******************************************************************/
+
+/***************** PROMOCAO FRASE **************/
+.TabPromo1{
+	background-color	: #FFF;
+	
+	height				: 337px;
+	width				: 429px;
+/*	border				: 1px solid #000;*/
+}
+.TdPromo1{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/PoPupPromo.jpg');
+	background-repeat	: no-repeat;
+	height				: 250px;
+	width				: 429px;
+/*	border				: 1px solid #000;*/
+}
+
+.TrPromo2{
+	position : relative;
+	top		 : 0px;
+	left	 : 16px;
+	width	 : 429px;
+	
+}
+
+.DivCbPromoAssitido{
+	position : relative;
+	float	 :left;
+	top		 : -20px;
+	_top	 : -10px;
+	left	 : 15px;
+	_left	 : 29px;
+	width	 : 429px;
+	height	 : 30px;
+	_height	 : 0px;
+	background-color	: transparent;
+/*	border : 1px solid #000;*/
+}
+.TxtQualidadeGeral{
+		/*border : 1px solid #000;*/
+	font-family			: Trebuchet MS;
+	font-size			: 12px;
+	color				: #000000;
+	text-decoration		: none;
+	position : relative;
+	float	 :left;
+	top		 : 10px;
+	_top	 : 5px;
+	
+	width	 : 429px;
+	height	 : 40px;
+	_height	 : 0px;
+	background-color	: transparent;
+}
+.FooterNaoLogado{
+	background-image	: url('/web/20071009091745im_/http://www.esporteinterativo.com.br/img/FooterNaoLogado.jpg');
+	background-repeat	: no-repeat;
+	height				: 144px;
+	width				: 429px;
+/*	border:1px solid #000;*/
+}
+
+.TxtGeral{
+	font-family			: Trebuchet MS;
+	font-size			: 12px;
+	color				: #000000;
+	text-decoration		: none;
+	
+}
+.DivResposta{
+	font-family			: Trebuchet MS;
+	font-size			: 12px;
+	color				: #000000;
+	text-decoration		: none;	
+	
+	position : relative;
+	top		 : 70px;
+	left	 : 16px;
+	
+}
+
+.DivRespostaConfirma {
+	font-family			: Trebuchet MS;
+	font-size			: 12px;
+	color				: #000000;
+	text-decoration		: none;	
+
+	position : relative;
+	top		 : 208px;
+	left	 : 16px;
+}
+
+.CblTxtResposta{
+	width 		: 248px;
+	height  	: 37px;
+	overflow	: auto;
+}
+
+.TxtRestantes{
+	font-family			: Trebuchet MS;
+	font-size			: 10px;
+	color				: #000000;
+	text-decoration		: none;	
+}
+.CblTxtRestantes{
+	font-family			: Trebuchet MS;
+	font-size			: 10px;
+	color				: #000000;
+	text-decoration		: none;	
+	
+	
+	position : relative;
+	top		 : 2px;
+	border : 0px;
+}
+.AssitiuOutros{
+	font-family			: Trebuchet MS;
+	font-size			: 12px;
+	color				: #000000;
+	text-decoration		: none;	
+	width				: 250px;
+}
+
+.CblTxtAssitiuOutros{
+	font-family			: Trebuchet MS;
+	font-size			: 10px;
+	color				: #000000;
+	text-decoration		: none;	
+}
+
+.cTXTSelectAssistido{
+	font-family			: Trebuchet MS;
+	font-size			: 9px;
+	color				: #000000;
+	text-decoration		: none;	
+	width				: 109px;
+	height				: 16px;
+}
+
+.TxtAssistiu{
+	font-family			: Trebuchet MS;
+	font-size			: 12px;
+	color				: #000000;
+	text-decoration		: none;	
+	position			: relative;
+	left				: 16px;
+/*	border	: 1px solid #000;*/
+}
+
+.TxtEmail{
+	position			: relative;
+	top					: 17px;
+	left				: 18px;
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #000000;
+	text-decoration		: none;	
+}
+
+.TxtSenha{
+	position			: relative;
+	top					: -1px;
+	left				: 18px;
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #000000;
+	text-decoration		: none;	
+}
+	
+.CblSenha{
+	position			: relative;
+	width				: 126px;
+	top					: 2px;
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #000000;
+}
+
+.CblEmail{
+	position			: relative;
+	top					: 2px;
+	width				: 126px;
+	font-family			: Trebuchet MS;
+	font-size			: 11px;
+	color				: #000000;
+}
+
+
+
+
+a.TxtEsqueciSenhaPromo{
+	font-family			: Trebuchet MS;
+	font-size			: 9px;
+	color				: #9B0606;
+	text-decoration		: none;
+}
+
+a.TxtEsqueciSenhaPromo:hover{
+	font-family			: Trebuchet MS;
+	font-size			: 9px;
+	color				: #9B0606;
+	text-decoration		: underline;
+}
+
+.Logar{
+	position:relative;
+	float: left;
+	top:10px;
+	left:60px;
+	cursor:hand;
+/*	border:1px solid #000;*/
+	width	: 95px;
+	height	: 15px;
+	line-height:15px;
+}
+.Regulamento
+{
+	position:relative;
+	float: left;
+	top:13px;
+	left:180px;
+	cursor:hand;
+/*	border:1px solid #000;*/
+	width	: 95px;
+	height	: 15px;
+	line-height:15px;
+}
+
+a.TxtRegulamento{
+	font-family			: Trebuchet MS;
+	font-size			: 9px;
+	color				: #FF3600;
+	text-decoration		: none;
+}
+
+a.TxtRegulamento:hover{
+	font-family			: Trebuchet MS;
+	font-size			: 9px;
+	color				: #FF3600;
+	text-decoration		: underline;
+}
+
+.CliquePromocao{
+	/*border: 1px solid #000;*/
+	height		: 20px;
+	_height		: 10px;
+	width		: 80px;
+	_width		: 80px;
+	position	: relative;
+	top			: -10px;
+	left		: 280px;
+	_left		: 90px;
+	cursor		: hand;
+}
+
+.DivFecharPromo{
+	position	: relative;
+	top			: 245px;
+	left		: 45px;
+	
+	height		: 10px;
+	width		: 60px;
+	cursor		: hand;
+}
+/**********************************************/
+
+
+/* Estilos extras */
+
+.input_busca {
+	font-family:Verdana, Tahoma, Arial;
+	font-size:11px;
+	color:#000000;
+	border:1px solid #e40000;
+}
+
+/*
+     FILE ARCHIVED ON 09:17:45 Oct 09, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:27:07 Sep 12, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1172.218
+  exclusion.robots: 0.065
+  exclusion.robots.policy: 0.057
+  cdx.remote: 0.055
+  esindex: 0.009
+  LoadShardBlock: 1129.292 (3)
+  PetaboxLoader3.datanode: 234.683 (4)
+  PetaboxLoader3.resolve: 2481.674 (2)
+  load_resource: 1637.894
+*/
