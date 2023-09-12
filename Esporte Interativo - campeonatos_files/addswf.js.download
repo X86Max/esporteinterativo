@@ -1,0 +1,59 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+function addSWF (URL, WIDTH, HEIGHT, TRANSPARENT)
+{
+document.write (' <object classid="clsid:27CDB6E-AE6D-11cf-96B8-444553540000" ');
+document.write (' codebase="https://web.archive.org/web/20071009092622/http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" ');
+document.write (' width="'+ WIDTH +'" height="'+ HEIGHT +'">');
+document.write (' <param name="movie" value="'+ URL +'" />');
+document.write (' <param name="quality" value="high" />');
+
+if ( TRANSPARENT ) {
+  document.write (' <param name="Wmode" value="Transparent" />'); 
+}
+
+document.write (' <embed src="'+ URL +'" quality="high" ');
+
+if ( TRANSPARENT ) {
+document.write (' Wmode = "transparent" ');
+}
+
+document.write (' pluginspage="https://web.archive.org/web/20071009092622/http://www.macromedia.com/go/getflashplayer" ');
+document.write (' type="application/x-shockwave-flash" width="'+ WIDTH +'" height="'+ HEIGHT +'"></embed> ');
+document.write (' </object>');
+
+}
+
+
+
+}
+/*
+     FILE ARCHIVED ON 09:26:22 Oct 09, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:27:08 Sep 12, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 71.995
+  exclusion.robots: 0.096
+  exclusion.robots.policy: 0.082
+  cdx.remote: 0.079
+  esindex: 0.014
+  LoadShardBlock: 40.911 (3)
+  PetaboxLoader3.datanode: 45.796 (4)
+  load_resource: 153.381
+  PetaboxLoader3.resolve: 72.282
+*/

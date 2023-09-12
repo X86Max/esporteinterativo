@@ -1,0 +1,2273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Esporte Interativo</title>
+	<meta name="Author" content="Callnet">
+	<meta name="Operator" content="Callnet">
+	<meta name="ms.locale" content="pt-br">
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+	<link rel="STYLESHEET" type="text/css" href="/0inc/estilo.css">
+	
+
+<style type="text/css">
+#sponsorAdDiv {position:absolute; height:1; width:1px; top:0; left:0;}
+</style>
+
+<script type="text/javascript">
+
+/******************************************
+* DHTML Ad Box (By Matt Gabbert at http://www.nolag.com)
+* Visit http://www.dynamicdrive.com/ for full script
+* This notice must stay intact for use
+******************************************/
+
+adTime=60;  // seconds ad reminder is shown
+chanceAd=1; // ad will be shown 1 in X times (put 1 for everytime)
+
+var ns=(document.layers);
+var ie=(document.all);
+var w3=(document.getElementById && !ie);
+var calunit=ns? "" : "px"
+adCount=0;
+function initAd(){
+	/*if(!ns && !ie && !w3) return;
+	if(ie)		adDiv=eval('document.all.sponsorAdDiv.style');
+	else if(ns)	adDiv=eval('document.layers["sponsorAdDiv"]');
+	else if(w3)	adDiv=eval('document.getElementById("sponsorAdDiv").style');
+	randAd=Math.ceil(Math.random()*chanceAd);
+        if (ie||w3)
+        adDiv.visibility="visible";
+        else
+        adDiv.visibility ="show";
+	if(randAd==1) showAd();*/
+}
+function showAd(){
+if(adCount<adTime*10){adCount+=1;
+	if (ie){documentWidth  =truebody().offsetWidth/2+truebody().scrollLeft-20;
+	documentHeight =truebody().offsetHeight/2+truebody().scrollTop-20;}	
+	else if (ns){documentWidth=window.innerWidth/2+window.pageXOffset-20;
+	documentHeight=window.innerHeight/2+window.pageYOffset-20;} 
+	else if (w3){documentWidth=self.innerWidth/2+window.pageXOffset-20;
+	documentHeight=self.innerHeight/2+window.pageYOffset-20;} 
+	adDiv.left=documentWidth-200+calunit;adDiv.top =documentHeight-200+calunit;
+	setTimeout("showAd()",100);}else closeAd();
+}
+function closeAd(){
+if (ie||w3)
+adDiv.display="none";
+else
+adDiv.visibility ="hide";
+}
+
+function truebody(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+onload=initAd;
+//End-->
+</script>
+	<script src="/0inc/AC_RunActiveContent.js" language="javascript"></script>
+	<script src="/0inc/script.js"></script>
+	<script src="/0inc/date-picker.js"></script>
+	<script src="/0inc/addswf.js"></script>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body bgcolor="#4B0000" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+
+<div id="DIVGeralHome" class="DIVGeralHome">
+
+		<!-- ############################# Tabela do superbanner opcional ############################-->
+			
+		<div align="center" style="background-color : #120401;">
+		<br>
+			
+		<a href="http://www.esporteinterativo.com.br/bolao" 
+				>
+					<img src="/img/upload/imagens/FULL_BOLAO.gif" border="0"  onClick="javascript:urchinTracker('/banners/loja_chuteira');" width="728" height="90">
+				</a>	
+						
+			<br><br>
+	</div>
+			
+
+		</tr>
+		</table>
+				
+	<!-- #################################### Fim da Tabela #################################-->
+		<div id="DIVBgHeaderHome">
+			<div class="LinkHomeBannerHome" onClick="javascript:document.location = '/index.asp'">
+				&nbsp;
+			</div>
+			<div id="DIVLoginHome">
+			
+<table border="0" cellspacing="3" cellpadding="0" align="center"  id="TabLogin">
+  <form name="formLogin" method="post" action="/usuarios/loginCR.asp">
+    <tr>
+	   <td width="83">
+	   		e-mail
+	   </td>
+       <td width="1">
+	   		<input type="text" name="sEmail" class="cTXTInputLogin"/>
+	   </td>
+	   <td width="90%" class="TxtEsqueciSenha" rowspan="2">
+	   		<span class="TxtQuotHome">&raquo;</span>
+			<a href="/clube/lembrar_senhaCR.asp" class="TxtEsqueciSenha">Esqueci minha senha</a><br> 
+			<span class="TxtQuotHome">&raquo;</span>
+			<a href="/usuarios/cadastro.asp" class="TxtEsqueciSenha">Quero me cadastrar</a>
+	   </td>
+     </tr>
+	 	<td>
+			senha
+		</td>
+       <td>
+	   	  <input type="password" name="sSenha" class="cTXTInputSenha">
+          <input type="image" src="/img/lat_esquerda/box/bOKLogin.gif" style="position : relative; top:3px;">
+	   </td>
+	 </tr>
+	</form>
+</table>
+
+			</div>	
+		</div>
+	<div id="DIVMioloHome">
+		<div id="DIVBarraEsquerdaHome">
+			<!-- Início da caixa do Clube E+I -->
+<div id="DIVClubeEI">
+	<div id="DIVConteudoClubeEI">
+		
+<table>
+<tr>
+	<td>
+		<img src="/img/home/LogoClubeEIBaixo.jpg" border="0" class="LogoBaixo" usemap="#LinkHome">
+		<map name="LinkHome">
+			<area alt="" coords="0,0,133,64" href="/index.asp">
+		</map>
+
+	</td>
+</tr>
+</table>
+
+	<table border="0" cellspacing="0" cellpadding="0" align="center" width="144">
+	<tr>
+		<td>
+		<!--<img src="/img/home/banner_interatividade.gif" border="0" usemap="#NaoLogado">
+		<map name="NaoLogado">
+			<area alt="" coords="0,0,143,117" href="/Clube/valide_pontos.asp" shape="RECT">
+			<area alt="" coords="0,131,140,159" href="/usuarios/cadastro.asp">
+		</map>-->
+				<!-- <img src="/img/lat_esquerda/box/box_bandeja.gif" width="143" height="160" alt="" border="0" usemap="#NaoLogado">
+		<map name="NaoLogado">
+			<area alt="" coords="0,0,143,117" href="/debandejacomvarejao/index.asp" shape="RECT">
+			<area alt="" coords="0,131,140,159" href="/usuarios/cadastro.asp">
+		</map>-->
+		 <img src="/img/lat_esquerda/box/box_artilharia.gif" width="143" height="160" alt="" border="0" usemap="#NaoLogado">
+		<map name="NaoLogado">
+			<area alt="" coords="0,0,143,117" href="/artilharia/" shape="RECT">
+			<area alt="" coords="0,131,140,159" href="/usuarios/cadastro.asp">
+		</map>
+		
+<!-- 				<img src="/img/lat_esquerda/box/box_desafio2.gif" border="0" usemap="#NaoLogado">
+		<map name="NaoLogado">
+			<area alt="" coords="0,0,143,117" href="javascript:openPopUp('http://homolog.esporteinterativo.com.br/hotsites/desafio','desafio','width=650,height=400,status=no,scrollbars=no,top=50,left=50')" shape="RECT">
+			<area alt="" coords="0,131,140,159" href="/usuarios/cadastro.asp">
+		</map> -->
+
+		
+		</td>
+	</tr>
+	</table>
+	
+	</div>
+</div>
+<!-- Fim da caixa do Clube E+I -->
+<!-- Início da caixa do Menu -->
+<div id="DIVClubeEI">
+	<div id="DIVheaderMenuHome">&nbsp;</div>
+	<div id="DIVConteudoMenu">
+		<table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
+<tr>
+	<td class="cTXTMenu1">
+		<a href="/index.asp" class="cTXTMenuLink2">
+			<div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg" border="0"></div> Página Inicial		</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu3" valign="middle">
+		<div class="SetaMenu"><img src="/img/SetaBaixoMenu.jpg"></div>TV Esporte Interativo	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+		<a href="/TV/index.asp" class="cTXTMenuLink">
+			Apresentação		</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+		<a href="/TV/atracoes.asp" class="cTXTMenuLink">
+			Atra&ccedil;&otilde;es</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+		<a href="/TV/como_assistir.asp" class="cTXTMenuLink">
+			Como assistir		</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+		<a href="/TV/grade.asp" class="cTXTMenuLink">
+			Programação		</a>	</td>
+</tr>
+<!--  <tr>
+	<td class="cTXTMenu3">
+		<a href="javascript:openPopUp('/popups/promo.asp','promo','width=429,height=552,status=no,scrollbars=no,top=50,left=50')" class="cTXTMenuLink2">
+			<div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg" border="0"></div>Comentarista Interativo</a></td>
+
+</tr>-->
+<tr>
+	<td class="cTXTMenu3" valign="middle">
+		<div class="SetaMenu"><img src="/img/SetaBaixoMenu.jpg"></div>Multim&iacute;dia	</td>
+</tr>
+ <tr>
+
+	 <td class="cTXTMenu2">
+	<a onclick="window.open('http://player.esporteinterativo.com.br', 'Player', ',width='+screen.width+',height='+screen.height+',scrollbars=auto');
+" class="cTXTMenuLink" style="cursor:pointer; cursor:hand;">
+		Vídeos		</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu3">
+		<a href="/noticias/index.asp" class="cTXTMenuLink2">
+			<div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg" border="0"></div>Notícias		</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu3">
+		<div class="SetaMenu"><img src="/img/SetaBaixoMenu.jpg"></div>Competições</td>
+</tr>
+<!-- 
+<tr>
+	<td class="cTXTMenu2">
+		<a href="/campeonatos/mundialsub20/index.asp" class="cTXTMenuLink">
+		Copa do Mundo Sub-20	</a>	</td>
+</tr>
+-->
+
+<tr>
+	<td class="cTXTMenu2">
+		<a href="/campeonatos/index.asp?id_campeonato=4" class="cTXTMenuLink">
+		Campeonato Brasileiro	</a>	</td>
+</tr>
+<!--
+<tr>
+	<td class="cTXTMenu2">
+		<a href="/noticias/index.asp?id_noticia=2301" class="cTXTMenuLink">
+		Pré-Olímpico de Basquete</a>	</td>
+</tr>
+
+<tr>
+	<td class="cTXTMenu2">
+		<a href="/NBA/index.asp" class="cTXTMenuLink">
+		NBA		</a>	</td>
+</tr>
+-->
+ <tr>
+	<td class="cTXTMenu2">
+	<a href="/campeonatos/index.asp?id_campeonato=5" class="cTXTMenuLink">
+		Campeonato Inglês	</a>	</td>
+</tr>
+  
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/campeonatos/index.asp?id_campeonato=1" class="cTXTMenuLink">
+		Campeonato Italiano	</a>	</td>
+</tr>
+  
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/campeonatos/index.asp?id_campeonato=9" class="cTXTMenuLink">
+		Campeonato Alemão	</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/campeonatos/index.asp?id_campeonato=6" class="cTXTMenuLink">
+		Campeonato Português	</a>	</td>
+</tr>
+
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/campeonatos/mundialfeminino" class="cTXTMenuLink">
+		Copa do Mundo Feminina	</a>	</td>
+</tr>
+<!-- 
+ <tr>
+	<td class="cTXTMenu3">
+		<a href="/copaesporteinterativo/" class="cTXTMenuLink2">
+    <div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg" border="0"></div>Copa Esporte Interativo</a>	</td>
+
+</tr>
+-->
+ <tr>
+	<td class="cTXTMenu3">
+		<a href="/comentarista/comentarista.asp" class="cTXTMenuLink2">
+    <div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg" border="0"></div>Comentarista Interativo</a>	</td>
+
+</tr>
+<tr>
+	<tr>
+	<td class="cTXTMenu3" valign="middle">
+		<div class="SetaMenu"><img src="/img/SetaBaixoMenu.jpg"></div>
+		Games</td>
+</tr>
+<!--  <tr>
+	<td class="cTXTMenu2">
+	<a href="/games/copaesporteinterativo/" class="cTXTMenuLink">
+		Copa Esporte Interativo</a></td>
+</tr> 
+-->
+
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/bolao/EntradaBolao.asp" class="cTXTMenuLink">
+		Bolão</a></td>
+</tr> 
+ <tr>
+	<td class="cTXTMenu2">
+	<a href="/games/chutepops4/" class="cTXTMenuLink">
+		ChutePops4 Sele&ccedil;&otilde;es </a></td>
+</tr>
+
+<tr>
+	<td class="cTXTMenu2">
+	<a href="javascript:openPopUp('/games/chutepops/resultado/resultado.html','regulamentocc','width=470,height=350,status=no,scrollbars=yes,top=50,left=50')" class="cTXTMenuLink">
+		Resultados ChutePops</a></td>
+</tr>
+
+
+
+<td class="cTXTMenu3" valign="middle">
+		<div class="SetaMenu"><img src="/img/SetaBaixoMenu.jpg"></div>
+		Promo&ccedil;&otilde;es</td>
+</tr>
+<!--<tr>
+	<td class="cTXTMenu2">
+	<a href="/debandejacomvarejao/index.asp" class="cTXTMenuLink">
+		De Bandeja com Varejão </a></td>
+</tr> --> 
+
+<!-- <tr>
+	<td class="cTXTMenu2">
+	<a href="/comentarista/comentarista.asp" class="cTXTMenuLink">
+		Comentarista Interativo </a></td>
+</tr> -->
+<!-- <tr>
+	<td class="cTXTMenu2">
+	<a href="javascript:openPopUp('/popups/promo.asp','promo','width=429,height=552,status=no,scrollbars=no,top=50,left=50')" class="cTXTMenuLink">
+		Comentarista Interativo </a></td>
+</tr> -->
+<!-- <tr>
+	<td class="cTXTMenu2">
+	<a href="/pan2007" class="cTXTMenuLink">
+		Ganhe 10% na Loja Oficial dos Jogos Rio 2007</a></td>
+</tr> -->
+
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/artilharia/" class="cTXTMenuLink">
+		Artilharia</a></td>
+</tr>
+
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/comentarista/resultado.asp" class="cTXTMenuLink">
+		Resultados Comentarista Interativo</a></td>
+</tr>
+
+<!--
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/debandejacomvarejao/" class="cTXTMenuLink">
+		Resultados de Bandeja com Varejão</a></td>
+</tr>
+-->
+<!-- 
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/videos/index.asp" class="cTXTMenuLink">
+		Vídeos		</a>	</td>
+</tr>
+-->
+
+
+<tr>
+	<td class="cTXTMenu3">
+		<div class="SetaMenu"><img src="/img/SetaBaixoMenu.jpg"></div>Plano de Fidelidade	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/usuarios/cadastro.asp" class="cTXTMenuLink">
+		Meus dados		</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/Clube/como_participar.asp" class="cTXTMenuLink">
+		Como participar		</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/Clube/valide_pontos.asp" class="cTXTMenuLink">
+		Valide seus pontos		</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/Submarino/extrato.asp" class="cTXTMenuLink">
+		Extrato de pontos </a></td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/Submarino/index.asp" class="cTXTMenuLink">
+		Resgate seus pr&ecirc;mios		</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/Submarino/acompanhe_seu_pedido.asp" class="cTXTMenuLink">
+		Acompanhe seus pedidos		</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/Clube/duvidas.asp" class="cTXTMenuLink">
+		Dúvidas		</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2">
+	<a href="javascript:openPopUp('/popups/regulamento.html','esportinterativo','width=468,height=450,status=no,scrollbars=yes,top=50,left=50')" class="cTXTMenuLink">
+		Regulamento		</a>	</td>
+</tr>
+
+
+<tr>
+	<td class="cTXTMenu3">
+		<div class="SetaMenu"><img src="/img/SetaBaixoMenu.jpg"></div>Interatividades
+	</a>	</td>
+</tr>
+<tr>
+	<td class="cTXTMenu2"><a href="/Celular/como_participar_quiz.asp" class="cTXTMenuLink">Quiz</a></td>
+</tr>
+<!-- 
+<tr>
+	<td class="cTXTMenu2"><a href="/Celular/como_participar_noticias_alertas.asp" class="cTXTMenuLink">FUTGOL</a></td>
+</tr>
+-->
+<tr>
+	<td class="cTXTMenu2"><a href="/Celular/como_participar_fala.asp" class="cTXTMenuLink">Fala</a></td>
+</tr>
+<tr>
+	<td class="cTXTMenu2"><a href="/Celular/como_participar_opine.asp" class="cTXTMenuLink">Opine</a></td>
+</tr>
+<tr>
+	<td class="cTXTMenu2"><a href="/Celular/como_participar_noticias_alertas.asp" class="cTXTMenuLink">Notícias e Alertas</a></td>
+</tr>
+<tr>
+	<td class="cTXTMenu2"><a href="/Celular/como_participar_enquete.asp" class="cTXTMenuLink">Enquete</a></td>
+</tr>
+<tr>
+	<td class="cTXTMenu2"><a href="/Celular/como_participar_chat.asp" class="cTXTMenuLink">Chat</a></td>
+</tr>
+<!--
+<tr>
+	<td class="cTXTMenu2">
+	<a href="/Celular/como_participar_enquete.asp" class="cTXTMenuLink">Desafio</a></td>
+</tr>
+-->
+ <tr>
+	<td class="cTXTMenu3">
+		<a href="/entrandoemcampo" class="cTXTMenuLink2">
+			<div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg" border="0"></div>Entrando em Campo</a>	</td>
+
+</tr>
+
+ <tr>
+	<td class="cTXTMenu3">
+		<a href="/eunoesporteinterativo" class="cTXTMenuLink2">
+			<div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg" border="0"></div>Eu no Esporte Interativo</a>	</td>
+
+</tr>
+
+ <tr>
+	<td class="cTXTMenu3">
+		<a href="/superquiz" class="cTXTMenuLink2" >
+			<div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg" border="0"></div>
+			SuperQuiz</a>	</td>
+
+</tr>
+
+<tr>
+	<td class="cTXTMenu3">
+			<div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg" border="0"></div>
+			<a href="javascript:openPopUp('/reidamesa/regulamento.html','regulamento','width=470,height=350,status=no,scrollbars=yes,top=50,left=50')" class="cTXTMenuLink2">Rei da Mesa</a></td>
+</tr>
+<tr>
+	<td class="cTXTMenu3">
+			<div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg" border="0" /></div><a href="/comentarista/" class="cTXTMenuLink2">Lance de Craque</a></td>
+</tr>
+
+<!--
+ <tr>
+	<td class="cTXTMenu3">
+		<div class="SetaMenu"><img src="/img/SetaBaixoMenu.jpg"></div>Torcida EI</td>
+</tr>
+-->
+<tr>
+	<td class="cTXTMenu3">
+	<div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg"></div>
+		<a href="http://www.orkut.com/Community.aspx?cmm=112962" target="_blank" class="cTXTMenuLink2">Comunidade<br> Esporte Interativo		</a>	</td>
+</tr>
+
+
+<!-- <tr>
+	<td class="cTXTMenu3">
+		<a href="http://www.supercanguru.com.br/canguru/group.asp?groupId=944" target="_blank" class="cTXTMenuLink2">
+			<div class="SetaMenu"><img src="/img/SetaDireitaMenu.jpg" border="0"></div>Loja EI	</a>	</td>
+</tr> -->
+</table>
+<script language="javascript">
+function openPopUp(URL, NAME, OPTIONS) {
+window.open(URL, NAME, OPTIONS)
+}
+
+function openfull(URL, NAME, OPTIONS){
+	window.open("http://player.esporteinterativo.com.br", "Player", ',width='+screen.width+',height='+screen.height+',scrollbars=auto');
+
+}
+</script>
+
+
+	</div>
+	<div id="DIVFooterMenu">&nbsp;</div>
+<!-- Fim da caixa do Menu -->	
+<!-- Início da caixa da Enquete -->	
+	<div id="DIVheaderEnquete">&nbsp;</div>
+	<div id="DIVConteudoEnquete">
+		<script>
+		function votaEnquete() {
+			var i;
+			var bVota = false;
+
+			for (i = 0; i < frmEnquete.Id_Resposta.length; i++) {
+				if (frmEnquete.Id_Resposta[i].checked) {
+					bVota = true;
+				}
+			}
+			if (bVota) {
+				/*window.open('', 'VotaEnquete', 'width=300, height=200,toolbars=no');
+				frmEnquete.target = 'VotaEnquete';*/
+				frmEnquete.co_operacao.value = "10";
+				frmEnquete.submit();
+			}
+			else {
+				alert('Selecione uma das opções!')
+			}
+		}
+		
+		function Voltar(){
+				frmEnquete.co_operacao.value = "0";
+				frmEnquete.submit();
+		
+		}
+		</script>
+		<form name="frmEnquete" method="post" action="">
+		<input type="hidden" name="Id_Enquete" value="256"/>
+		<input type="hidden" name="co_operacao" value="0">
+		<table border="0" cellpadding="0" cellspacing="2" align="left" class="cTBLEnqueteHome">
+		
+		<tr class="cTXTEnquetePerg">
+			<td class="cTXTEnquetePerg">
+				Qual foi a melhor contratação desta temporada no futebol europeu?
+			</td>
+		</tr>
+		<tr>
+			<td class="cTXTRespostaEnquete">
+				
+					<input type="radio" name="Id_Resposta" value="1602"/>
+					Alexandre Pato (Milan)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1603"/>
+					Anderson (Man Utd)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1604"/>
+					Elano (Man City)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1605"/>
+					Fernando Torres (Liverpool)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1606"/>
+					Henry (Barcelona)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1607"/>
+					Juan (Roma)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1608"/>
+					Klose (Bayern de Munique)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1609"/>
+					Luca Toni (Bayern de Munique)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1610"/>
+					Lucas (Liverpool)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1611"/>
+					Nani (Manchester)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1612"/>
+					Ribèry (Bayern de Munique)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1613"/>
+					Simão (Atlético de Madrid)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1614"/>
+					Tevez (Man Utd)<br/>
+					
+					<input type="radio" name="Id_Resposta" value="1615"/>
+					Zé Roberto (Bayern de Munique)<br/>
+					
+			</td>
+		</tr>
+		<tr>
+			<td height="15"></td>
+		</tr>
+		<tr>
+			<td align="center">
+				<a href="javascript: votaEnquete()">
+					<img src="/img/home/botVotar.jpg" alt="" border="0">
+				</a>
+			</td>
+		</tr>
+		
+		</table>
+		</form>
+		</div>
+</div>
+<!-- Fim da caixa da Enquete -->
+		</div>
+		<div id="DIVConteudoHome">
+			<table class="TabConteudoHome" border="0" cellpadding="0" cellspacing="0">
+				<tr>
+					<td valign="top">	
+
+<script>
+function AtualizaRodada(Rodada) {	
+	FormRodadas.Rodada.value = Rodada
+	FormRodadas.co_operacao.value = "2"
+	FormRodadas.submit();
+}
+
+function AtualizaRodadaCombo() {	
+	if(FormRodadas.Id_Rodada.value != "")
+	{
+		FormRodadas.Rodada.value = FormRodadas.Id_Rodada.value
+		FormRodadas.co_operacao.value = "2"
+		FormRodadas.submit();
+	}
+}
+</script>	
+<table class="TabCampeonatosInterna">
+	<tr>
+		<div align="center">
+		  
+	  
+		<td background="/img/upload/imagens/tit_campeonato4.gif" height="56" style="background-repeat:no-repeat"></td>
+  </tr>
+	<tr>
+		<td class="cTXTTitSessaoNoticias" >
+			<table width="95%" align="center" border="0">
+				<tr>
+					<td class="Menu" align="center">
+					
+					<a href="index.asp?id_campeonato=4" class="Menu" style="text-decoration:none;">
+						<b>Brasileiro </b>
+					</a>
+					</td>
+					<td class="Menu" align="center">
+					|
+					</td>
+			
+					<td class="Menu" align="center">
+					<a href="competicao.asp?id_campeonato=4" class="Menu" style="text-decoration:none;">
+						<b>Competição  </b>
+					</a>
+					</td>
+					<td class="Menu" align="center">
+					|
+					</td>
+	
+
+					<td class="Menu" align="center">
+						<a href="tabela.asp?id_campeonato=4" class="Menu" style="text-decoration:none;">
+							<b>Tabela  </b>
+						</a>
+					</td>
+					<td class="Menu" align="center">
+					|
+					</td>
+		
+					<td class="Menu" align="center">
+					<a href="classificacao.asp?id_campeonato=4" class="Menu" style="text-decoration:none;">
+						<b>Classificação </b>
+					</a>
+					</td>
+					<td class="Menu" align="center">
+					|
+					</td>
+			
+					<td class="Menu" align="center">
+					<a href="artilheiro.asp?id_campeonato=4" class="Menu" style="text-decoration:none;">
+						<b>Artilheiro </b>
+					</a>
+					</td>
+					
+				<!--	<td class="Menu">
+						<a href="jogadores.asp?id_campeonato=4" class="Menu" style="text-decoration:none;">
+							<b>Jogadores </b>
+						</a>
+					</td>
+				-->
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+	</tr>
+	<tr>
+		<td class="Menu" style="font-size:14px; color:#000; font-weight:bold;" >
+			27ª Rodada
+		</td>
+	</tr>
+	<tr>
+		<td width="100%" valign="top">
+			<table width="100%">
+				<tr>
+					<td width="50%" valign="top">
+					<!--####################### TABELA DE CLASSIFICAÇÃO #######################-->
+						<table width="100%" cellpadding="0" cellspacing="1" background="#FFF" border="0">
+							<tr class="TabelaInt" style="color:#FFF; background-color:#31659C; font-weight:bold;">
+								<td></td>
+								<td style="padding-left:5px">Time</td>
+								<td align="center">P</td>
+							</tr>
+							
+										<tr style="background-color:#BFD98C;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											1
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/sao_paulo_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=60" style="text-decoration:none;" class="Menu">
+																São Paulo 
+														</a>-->
+														São Paulo 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>60</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#BFD98C;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											2
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/cruzeiro_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=84" style="text-decoration:none;" class="Menu">
+																Cruzeiro 
+														</a>-->
+														Cruzeiro 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>51</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#BFD98C;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											3
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/gremio_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=99" style="text-decoration:none;" class="Menu">
+																Grêmio 
+														</a>-->
+														Grêmio 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>44</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#BFD98C;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											4
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/fluminense_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=64" style="text-decoration:none;" class="Menu">
+																Fluminense 
+														</a>-->
+														Fluminense 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>43</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#CCCCCC;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											5
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/palmeiras_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=53" style="text-decoration:none;" class="Menu">
+																Palmeiras 
+														</a>-->
+														Palmeiras 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>43</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#CCCCCC;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											6
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/santos_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=58" style="text-decoration:none;" class="Menu">
+																Santos 
+														</a>-->
+														Santos 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>42</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#CCCCCC;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											7
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/botafogo_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=62" style="text-decoration:none;" class="Menu">
+																Botafogo 
+														</a>-->
+														Botafogo 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>42</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#CCCCCC;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											8
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/vasco_da_gama_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=65" style="text-decoration:none;" class="Menu">
+																Vasco 
+														</a>-->
+														Vasco 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>40</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#CCCCCC;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											9
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/internacional_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=100" style="text-decoration:none;" class="Menu">
+																Internacional 
+														</a>-->
+														Internacional 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>36</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#CCCCCC;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											10
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/sport_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=93" style="text-decoration:none;" class="Menu">
+																Sport 
+														</a>-->
+														Sport 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>36</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#CCCCCC;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											11
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/atl_paranaense_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=94" style="text-decoration:none;" class="Menu">
+																Atlético-PR 
+														</a>-->
+														Atlético-PR 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>35</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#DEDEDE;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											12
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/flamengo_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=63" style="text-decoration:none;" class="Menu">
+																Flamengo 
+														</a>-->
+														Flamengo 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>34</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#DEDEDE;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											13
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/figueirense_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=104" style="text-decoration:none;" class="Menu">
+																Figueirense 
+														</a>-->
+														Figueirense 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>34</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#DEDEDE;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											14
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/goias_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=78" style="text-decoration:none;" class="Menu">
+																Goiás 
+														</a>-->
+														Goiás 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>34</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#DEDEDE;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											15
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/atl_mineiro_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=83" style="text-decoration:none;" class="Menu">
+																Atlético Mineiro 
+														</a>-->
+														Atlético Mineiro 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>33</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#DEDEDE;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											16
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/nautico_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=91" style="text-decoration:none;" class="Menu">
+																Náutico 
+														</a>-->
+														Náutico 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>33</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#D68484;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											17
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/corinthians_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=51" style="text-decoration:none;" class="Menu">
+																Corinthians 
+														</a>-->
+														Corinthians 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>33</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#D68484;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											18
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/parana_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=96" style="text-decoration:none;" class="Menu">
+																Paraná 
+														</a>-->
+														Paraná 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>31</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#D68484;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											19
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/juventude_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=101" style="text-decoration:none;" class="Menu">
+																Juventude 
+														</a>-->
+														Juventude 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>27</b>
+										</td>
+									</tr>
+								
+										<tr style="background-color:#D68484;">
+										<td class="TabelaInt" align="center" class="TdClassificacao">
+											20
+										</td>
+										<td class="TabelaInt" width="150">
+											<table width="100%" >
+												<tr>
+													<td width="34">
+														<img src="/img/upload/imagens/america_logo.gif" border="0" width="22" height="22"> &nbsp;		
+													</td>
+													<td class="TabelaInt" align="left" valign="top" style="position:relative; left:-10">
+														<!--<a href="/Times/index.asp?id_time=61" style="text-decoration:none;" class="Menu">
+																América-RN 
+														</a>-->
+														América-RN 
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="TabelaInt" align="center" width="30">
+											<b>12</b>
+										</td>
+									</tr>
+								
+							<tr>
+								<td colspan="3" align="right">
+									<a href="classificacao.asp?id_campeonato=4" class="LinkDetalhe">
+										Tabela Completa
+									</a>
+								</td>
+							</tr>
+						</table>
+					<!--#######################################################################-->
+			  </td>
+					<td valign="top" width="50%">
+						<table width="100%" border="0">
+							<tr>
+								<td>
+								<!--####################### TABELA DE ULTIMAS RODADAS #######################-->
+									<table width="100%" border="0" bgcolor="">
+									<tr bgcolor="#31659C" style="color:#FFF" class="TabelaInt">
+											<td>
+												<b>Última Rodada</b>
+											</td>
+									  </tr>
+									
+											<tr bgcolor="99CCFF">
+										
+											<td>
+												<table>
+													<tr>
+														
+															<td align="left" width="80" class="Menu" style="color:#003366;; font-size:9px;" height="20">
+														
+														
+																<!--<a href="/Times/index.asp?id_time=65" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+																
+															</a>-->
+															Vasco
+														</td>
+														
+															<td align="center" class="Menu" width="30" style="color:#003366;">
+														0 X 2
+														</td>
+														
+															<td align="right" class="Menu" width="80" style="color:#003366;">
+														
+																<!--<a href="/Times/index.asp?id_time=84" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+															 	Cruzeiro
+															</a>-->
+																Cruzeiro
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+											<tr bgcolor="99CCFF">
+										
+											<td>
+												<table>
+													<tr>
+														
+															<td align="left" width="80" class="Menu" style="color:#003366;; font-size:9px;" height="20">
+														
+														
+																<!--<a href="/Times/index.asp?id_time=94" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+																
+															</a>-->
+															Atlético-PR
+														</td>
+														
+															<td align="center" class="Menu" width="30" style="color:#003366;">
+														2 X 1
+														</td>
+														
+															<td align="right" class="Menu" width="80" style="color:#003366;">
+														
+																<!--<a href="/Times/index.asp?id_time=96" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+															 	Paraná
+															</a>-->
+																Paraná
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+											<tr bgcolor="99CCFF">
+										
+											<td>
+												<table>
+													<tr>
+														
+															<td align="left" width="80" class="Menu" style="color:#003366;; font-size:9px;" height="20">
+														
+														
+																<!--<a href="/Times/index.asp?id_time=62" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+																
+															</a>-->
+															Botafogo
+														</td>
+														
+															<td align="center" class="Menu" width="30" style="color:#003366;">
+														0 X 2
+														</td>
+														
+															<td align="right" class="Menu" width="80" style="color:#003366;">
+														
+																<!--<a href="/Times/index.asp?id_time=64" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+															 	Fluminense
+															</a>-->
+																Fluminense
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+											<tr bgcolor="99CCFF">
+										
+											<td>
+												<table>
+													<tr>
+														
+															<td align="left" width="80" class="Menu" style="color:#003366;; font-size:9px;" height="20">
+														
+														
+																<!--<a href="/Times/index.asp?id_time=101" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+																
+															</a>-->
+															Juventude
+														</td>
+														
+															<td align="center" class="Menu" width="30" style="color:#003366;">
+														2 X 2
+														</td>
+														
+															<td align="right" class="Menu" width="80" style="color:#003366;">
+														
+																<!--<a href="/Times/index.asp?id_time=63" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+															 	Flamengo
+															</a>-->
+																Flamengo
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+											<tr bgcolor="99CCFF">
+										
+											<td>
+												<table>
+													<tr>
+														
+															<td align="left" width="80" class="Menu" style="color:#003366;; font-size:9px;" height="20">
+														
+														
+																<!--<a href="/Times/index.asp?id_time=83" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+																
+															</a>-->
+															Atlético Mineiro
+														</td>
+														
+															<td align="center" class="Menu" width="30" style="color:#003366;">
+														2 X 2
+														</td>
+														
+															<td align="right" class="Menu" width="80" style="color:#003366;">
+														
+																<!--<a href="/Times/index.asp?id_time=100" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+															 	Internacional
+															</a>-->
+																Internacional
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+									</table>
+								<!--#########################################################################-->
+								</td>
+							</tr>
+
+		
+
+							<tr>
+									<td align="right">
+									<a href="tabela.asp?rodada=27&id_campeonato=4" class="LinkDetalhe">
+										Veja os Jogos
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td height="20"></td>
+							</tr>
+							<tr>
+								<td>
+								<!--####################### TABELA DE PROXIMAS RODADAS #######################-->
+									<table width="100%" border="0" bgcolor="">
+									
+										<tr bgcolor="#31659C" style="color:#FFF" class="TabelaInt">
+											<td>
+												&nbsp;<b>Próxima Rodada</b>
+											</td>
+										</tr>
+										
+											<tr bgcolor="99CCFF">
+										
+											<td>
+												<table>
+													<tr>
+														
+															<td align="left" width="80" class="Menu" style="color:#003366; font-size:9px;" height="20">
+														
+															<!--<a href="/Times/index.asp?id_time=51" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+																Corinthians
+															</a>-->
+															Corinthians
+														</td>
+														
+															<td align="center" class="Menu" width="30" style="color:#003366;">
+														 X 
+														</td>
+														
+															<td align="right" class="Menu" width="80" style="color:#003366;">
+														
+															<!--<a href="/Times/index.asp?id_time=93" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+															 	Sport
+															</a>-->
+															Sport
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+											<tr bgcolor="99CCFF">
+										
+											<td>
+												<table>
+													<tr>
+														
+															<td align="left" width="80" class="Menu" style="color:#003366; font-size:9px;" height="20">
+														
+															<!--<a href="/Times/index.asp?id_time=100" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+																Internacional
+															</a>-->
+															Internacional
+														</td>
+														
+															<td align="center" class="Menu" width="30" style="color:#003366;">
+														 X 
+														</td>
+														
+															<td align="right" class="Menu" width="80" style="color:#003366;">
+														
+															<!--<a href="/Times/index.asp?id_time=60" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+															 	São Paulo
+															</a>-->
+															São Paulo
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+											<tr bgcolor="99CCFF">
+										
+											<td>
+												<table>
+													<tr>
+														
+															<td align="left" width="80" class="Menu" style="color:#003366; font-size:9px;" height="20">
+														
+															<!--<a href="/Times/index.asp?id_time=101" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+																Juventude
+															</a>-->
+															Juventude
+														</td>
+														
+															<td align="center" class="Menu" width="30" style="color:#003366;">
+														 X 
+														</td>
+														
+															<td align="right" class="Menu" width="80" style="color:#003366;">
+														
+															<!--<a href="/Times/index.asp?id_time=99" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+															 	Grêmio
+															</a>-->
+															Grêmio
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+											<tr bgcolor="99CCFF">
+										
+											<td>
+												<table>
+													<tr>
+														
+															<td align="left" width="80" class="Menu" style="color:#003366; font-size:9px;" height="20">
+														
+															<!--<a href="/Times/index.asp?id_time=58" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+																Santos
+															</a>-->
+															Santos
+														</td>
+														
+															<td align="center" class="Menu" width="30" style="color:#003366;">
+														 X 
+														</td>
+														
+															<td align="right" class="Menu" width="80" style="color:#003366;">
+														
+															<!--<a href="/Times/index.asp?id_time=65" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+															 	Vasco
+															</a>-->
+															Vasco
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+											<tr bgcolor="99CCFF">
+										
+											<td>
+												<table>
+													<tr>
+														
+															<td align="left" width="80" class="Menu" style="color:#003366; font-size:9px;" height="20">
+														
+															<!--<a href="/Times/index.asp?id_time=84" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+																Cruzeiro
+															</a>-->
+															Cruzeiro
+														</td>
+														
+															<td align="center" class="Menu" width="30" style="color:#003366;">
+														 X 
+														</td>
+														
+															<td align="right" class="Menu" width="80" style="color:#003366;">
+														
+															<!--<a href="/Times/index.asp?id_time=104" style="text-decoration:none; font-size:9px; color:#000;" class="Menu">
+															 	Figueirense
+															</a>-->
+															Figueirense
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										
+
+									</table>
+								<!--##########################################################################-->
+								</td>
+							</tr>
+							<tr>
+								<td align="right">
+									<span class="DlgTv">tv</span>
+									<a href="tabela.asp?rodada=28&id_campeonato=4" class="LinkDetalhe">
+										Veja os Jogos
+									</a>
+								</td>
+							</tr> 
+	
+							<tr>
+								<td height="20"></td>
+							</tr>
+							<tr>
+								<td>
+								<!--####################### TABELA DE ARTILHEIROS #######################-->
+									<table border="0" width="100%" cellpadding="0" cellspacing="1" class="TabelaInt">
+									<tr bgcolor="#31659C" style="color:#FFF" height="20">
+										<td align="left" colspan="2">
+											<b>Nome</b>
+										</td>
+										<td align="center">
+											<b>Gols</b>
+										</td>
+									</tr>
+									
+											<tr bgcolor="#DEDEDE">
+												<td align="left"  style="border-top:1px solid #FFF;" height="70" width="70">
+													<img src="/img/upload/imagens/josiel1.jpg" border="0" width="70" height="70" style=" position:relative; top:1px">
+												</td>
+												<td style="padding-left:25px" align="right" valign="bottom">
+													<img src="/img/upload/imagens/parana_logo.gif" border="0" width="22" height="22"> &nbsp;	<br>
+													<!--<a href="/Jogadores/jogador.asp?id_jogador=2573" style="text-decoration:none; " class="Menu">
+														Josiel
+													</a>-->
+													Josiel
+													
+												</td>
+												<td valign="bottom" align="center">
+														<b>17</b>
+												</td>
+											</tr>
+											
+											<tr bgcolor="#DEDEDE" height="30">
+												<td align="left" colspan="2" valign="middle">
+												
+													<img src="/img/upload/imagens/nautico_logo.gif" border="0" width="22" height="22"> &nbsp;
+														<!--<a href="/Jogadores/jogador.asp?id_jogador=2579" style="text-decoration:none; " class="Menu">
+														Acosta
+													</a>-->
+													Acosta
+												</td>
+												<td valign="middle" align="center">
+													<b>14</b>
+												</td>
+											</tr>	
+											
+										
+											<tr bgcolor="#DEDEDE" height="30">
+												<td align="left" colspan="2" valign="middle">
+												
+													<img src="/img/upload/imagens/botafogo_logo.gif" border="0" width="22" height="22"> &nbsp;
+														<!--<a href="/Jogadores/jogador.asp?id_jogador=2639" style="text-decoration:none; " class="Menu">
+														André Lima
+													</a>-->
+													André Lima
+												</td>
+												<td valign="middle" align="center">
+													<b>12</b>
+												</td>
+											</tr>	
+											
+										
+											<tr bgcolor="#DEDEDE" height="30">
+												<td align="left" colspan="2" valign="middle">
+												
+													<img src="/img/upload/imagens/sport_logo.gif" border="0" width="22" height="22"> &nbsp;
+														<!--<a href="/Jogadores/jogador.asp?id_jogador=2651" style="text-decoration:none; " class="Menu">
+														Carlinhos Bala
+													</a>-->
+													Carlinhos Bala
+												</td>
+												<td valign="middle" align="center">
+													<b>11</b>
+												</td>
+											</tr>	
+											
+										
+											<tr bgcolor="#DEDEDE" height="30">
+												<td align="left" colspan="2" valign="middle">
+												
+													<img src="/img/upload/imagens/botafogo_logo.gif" border="0" width="22" height="22"> &nbsp;
+														<!--<a href="/Jogadores/jogador.asp?id_jogador=2640" style="text-decoration:none; " class="Menu">
+														Dodô
+													</a>-->
+													Dodô
+												</td>
+												<td valign="middle" align="center">
+													<b>10</b>
+												</td>
+											</tr>	
+											
+										
+									</table>
+								<!--#####################################################################-->
+								</td>
+							</tr>
+							<tr>
+								<td align="right">
+									<a href="artilheiro.asp?id_campeonato=4" class="LinkDetalhe">
+										Artilharia
+									</a>
+								</td>
+							</tr>
+							<tr>
+								<td height="20"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td height="20"></td>
+	</tr>	
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td class="TitutloInterno">
+						
+						Últimas notícias do Brasileiro
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="cTDNoticia" colspan="2">
+						<span class="cTXTConteudoNoticia">
+							<a href="/noticias/index.asp?Id_Noticia=2524" class="cLinkNoticia0">
+								São Paulo vence e amplia vantagem na ponta - 22/9/2007
+							</a>
+						</span>
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="cTDNoticia" colspan="2">
+						<span class="cTXTConteudoNoticia">
+							<a href="/noticias/index.asp?Id_Noticia=2479" class="cLinkNoticia0">
+								Cruzeiro vence o Galo em jogo sensacional - 16/9/2007
+							</a>
+						</span>
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="cTDNoticia" colspan="2">
+						<span class="cTXTConteudoNoticia">
+							<a href="/noticias/index.asp?Id_Noticia=2475" class="cLinkNoticia0">
+								Nilmar acerta retorno ao Inter e novela termina - 15/9/2007
+							</a>
+						</span>
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="cTDNoticia" colspan="2">
+						<span class="cTXTConteudoNoticia">
+							<a href="/noticias/index.asp?Id_Noticia=2461" class="cLinkNoticia0">
+								Nilmar acerta retorno ao Inter e novela termina - 14/9/2007
+							</a>
+						</span>
+					</td>
+				</tr>
+				
+				<tr>
+					<td class="cTDNoticia" colspan="2">
+						<span class="cTXTConteudoNoticia">
+							<a href="/noticias/index.asp?Id_Noticia=2456" class="cLinkNoticia0">
+								Botafogo apresenta seu novo camisa 1: Roger - 13/9/2007
+							</a>
+						</span>
+					</td>
+				</tr>
+				
+			</table>
+		</td>
+	</tr>		
+</table>
+
+			<br><br><br><br><br><br>
+				</td>
+			</tr>
+		</table>
+			<div class="cTXTRodape">
+			<center>&copy; 1999-2007 Esporte Interativo. Todos os direitos reservados.</center><br>
+		    <center>
+					<p><a href="/topsports" class="TxtFooter">A Empresa </a>|
+					  <a href="/comercial/home.asp" class="TxtFooter">Comercial </a>|
+					  <!--<a href="http://www.topsports.com.br/comercial/" style="color:#0000EE; text-decoration:none;" target="_blank">Comercial </a>|-->
+					  <a href="/FaleConosco/index.asp" class="TxtFooter">Fale Conosco</a><br><br>
+
+				    <!--   <a href="/Transmita" class="TxtFooter">Transmita a TV Esporte Interativo</a>-->
+					<br>
+			</p>
+			  </center>	
+				</div>
+			<br>
+			<br>
+					
+		</div>
+		<div id="DIVBarraDireita">
+			<!-- Início da caixa da Programação -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" id="TabPrinProgramacaoInterna">
+<tr>
+	<td>
+			<div class="DivPassandoAgoraInterna">
+				<div class="DIVTitAgoraInterna">
+					<img src="/img/titProgramacaoNoAr.jpg" width="134" height="25" alt="" border="0">
+				</div>
+				<div class="DIVTituloAgoraInterna">
+					Chelsea x Fulham
+				</div>
+				
+				<div class="DIVTipoProxima">
+					Inédito
+				</div>
+				<div class="DIVFooterAgoraInterna">
+					<a href="/TV/como_assistir.asp" class="cTXTMenuLink"><img src="/img/bAssistaAgora.gif" alt="" border="0"></a>
+				</div>
+			</div>
+			
+			<div class="DIVConteudoProgramacaoInterna">
+				<div class="DIVTitAgoraInterna">
+					<img src="/img/titProgramacaoProxima.jpg" width="116" height="16" alt="" border="0" align="absmiddle">
+				</div>
+				
+					<span class="DIVCanalProximaInterna">
+						<span class="DIVHoraProgramacaoInterna">
+							14h20&nbsp;
+						</span>
+						TV Esporte Interativo
+					</span>
+					<div class="DIVChamadaProximaInterna">
+						
+						&nbsp;Pré-Olímpico Feminino/ Brasil x Argentina
+					</div>
+					<div class="DIVTipoProximaInterna">
+						&nbsp;Ao vivo
+					</div>
+					
+						<div class="DIVEspacoProxima">&nbsp;</div>
+						
+					<span class="DIVCanalProximaInterna">
+						<span class="DIVHoraProgramacaoInterna">
+							15h20&nbsp;
+						</span>
+						TV Esporte Interativo
+					</span>
+					<div class="DIVChamadaProximaInterna">
+						Campeonato Italiano<br>
+						&nbsp;Torino x Juventus
+					</div>
+					<div class="DIVTipoProximaInterna">
+						&nbsp;Ao vivo
+					</div>
+					
+				<div class="DIVFooterAgoraInterna">
+					<a href="/TV/grade.asp" class="cTXTMenuLink"><img src="/img/bGradeCompleta.gif" alt="" border="0"></a>
+				</div>
+			</div>
+			</td>
+</tr>
+</table>
+<!-- Fim da caixa da Programação -->
+
+<div id="DIVCampeonatos">
+	
+			<div id="DIVHeaderCampeonatos">&nbsp;</div>
+			<div id="DIVConteudoCampeonatos">
+			<table border="0" cellpadding="3" cellspacing="0" class="cTBLCampeonatos">
+			<tr class="cBGCampeonatos">
+				<td colspan="2" class="cTXTCampeonatos">
+					<a href="/campeonatos/index.asp?id_campeonato=1" class="cTXTCampeonatos">
+						<center>Campeonato Italiano</center>
+					</a>
+				</td>
+			</tr>
+
+			<!-- 4 primeiros -->
+			
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=1" class="cTXTClassificacao2">
+								Inter
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							14
+						</td>
+					</tr>
+					
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=1" class="cTXTClassificacao2">
+								Fiorentina
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							12
+						</td>
+					</tr>
+					
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=1" class="cTXTClassificacao2">
+								Roma
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							11
+						</td>
+					</tr>
+					
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=1" class="cTXTClassificacao2">
+								Juventus
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							10
+						</td>
+					</tr>
+					
+
+			<!-- 3 últimos -->
+			
+					<!--<tr class="cBGClassificacaoUltimos">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=" class="cBGClassificacaoUltimos">
+								
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							
+						</td>
+					</tr>-->
+					
+			</table>
+
+			<!-- Artilheiro -->
+			
+				<table border="0" cellpadding="3" cellspacing="0" class="cTBLArtilheiro">
+				
+					<tr>
+						<td width="45" rowspan="3">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=1" >
+								<img src="/img/upload/imagens/Ibrahimovic_Inter_90x90.jpg" width="45" height="45" border="0" class="FotoArtilheiro">
+							</a>
+						</td>
+								
+						<td class="cTXTArtilheiroNome">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=1" class="cTXTArtilheiroNome">
+								Ibrahimovic
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="cTXTArtilheiroTime">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=1" class="cTXTArtilheiroTime">
+								Inter
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="cTXTArtilheiroGols">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=1" class="cTXTArtilheiroGols">
+								7 Gols
+							</a>
+						</td>
+					</tr>
+					
+				</table>
+				
+
+			<!-- Destaque -->
+			
+			<!--	<table border="0" cellpadding="3" cellspacing="0" class="cTBLDestaque">-->
+				
+				<!--<tr>
+						<td width="45" rowspan="3"><img src="/img/upload/imagens/" width="45" height="45"></td>
+						<td class="cTXTDestaqueNome"></td>
+					</tr>
+					<tr>
+						<td class="cTXTDestaqueTime"></td>
+					</tr>
+					<tr>
+						<td class="cTXTDestaqueGols">Destaque</td>
+					</tr>-->
+					
+				<!--</table>-->
+				
+			</div>
+			<div id="DIVFooterCampeonatos">&nbsp;</div>
+			
+			<div id="DIVHeaderCampeonatos">&nbsp;</div>
+			<div id="DIVConteudoCampeonatos">
+			<table border="0" cellpadding="3" cellspacing="0" class="cTBLCampeonatos">
+			<tr class="cBGCampeonatos">
+				<td colspan="2" class="cTXTCampeonatos">
+					<a href="/campeonatos/index.asp?id_campeonato=5" class="cTXTCampeonatos">
+						<center>Campeonato Inglês</center>
+					</a>
+				</td>
+			</tr>
+
+			<!-- 4 primeiros -->
+			
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=5" class="cTXTClassificacao2">
+								Arsenal
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							19
+						</td>
+					</tr>
+					
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=5" class="cTXTClassificacao2">
+								Manchester United
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							17
+						</td>
+					</tr>
+					
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=5" class="cTXTClassificacao2">
+								Manchester City
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							16
+						</td>
+					</tr>
+					
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=5" class="cTXTClassificacao2">
+								Liverpool
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							15
+						</td>
+					</tr>
+					
+
+			<!-- 3 últimos -->
+			
+					<!--<tr class="cBGClassificacaoUltimos">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=" class="cBGClassificacaoUltimos">
+								
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							
+						</td>
+					</tr>-->
+					
+			</table>
+
+			<!-- Artilheiro -->
+			
+				<table border="0" cellpadding="3" cellspacing="0" class="cTBLArtilheiro">
+				
+					<tr>
+						<td width="45" rowspan="3">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=5" >
+								<img src="/img/upload/imagens/adebayor_50_x_50.jpg" width="45" height="45" border="0" class="FotoArtilheiro">
+							</a>
+						</td>
+								
+						<td class="cTXTArtilheiroNome">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=5" class="cTXTArtilheiroNome">
+								Adebayor
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="cTXTArtilheiroTime">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=5" class="cTXTArtilheiroTime">
+								Arsenal
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="cTXTArtilheiroGols">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=5" class="cTXTArtilheiroGols">
+								6 Gols
+							</a>
+						</td>
+					</tr>
+					
+				</table>
+				
+
+			<!-- Destaque -->
+			
+			<!--	<table border="0" cellpadding="3" cellspacing="0" class="cTBLDestaque">-->
+				
+				<!--<tr>
+						<td width="45" rowspan="3"><img src="/img/upload/imagens/" width="45" height="45"></td>
+						<td class="cTXTDestaqueNome"></td>
+					</tr>
+					<tr>
+						<td class="cTXTDestaqueTime"></td>
+					</tr>
+					<tr>
+						<td class="cTXTDestaqueGols">Destaque</td>
+					</tr>-->
+					
+				<!--</table>-->
+				
+			</div>
+			<div id="DIVFooterCampeonatos">&nbsp;</div>
+			
+			<div id="DIVHeaderCampeonatos">&nbsp;</div>
+			<div id="DIVConteudoCampeonatos">
+			<table border="0" cellpadding="3" cellspacing="0" class="cTBLCampeonatos">
+			<tr class="cBGCampeonatos">
+				<td colspan="2" class="cTXTCampeonatos">
+					<a href="/campeonatos/index.asp?id_campeonato=6" class="cTXTCampeonatos">
+						<center>Campeonato Português</center>
+					</a>
+				</td>
+			</tr>
+
+			<!-- 4 primeiros -->
+			
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=6" class="cTXTClassificacao2">
+								Porto
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							15
+						</td>
+					</tr>
+					
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=6" class="cTXTClassificacao2">
+								Marítimo
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							12
+						</td>
+					</tr>
+					
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=6" class="cTXTClassificacao2">
+								Sporting
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							10
+						</td>
+					</tr>
+					
+					<tr class="cBGClassificacaoPrimeiros">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=6" class="cTXTClassificacao2">
+								Benfica
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							9
+						</td>
+					</tr>
+					
+
+			<!-- 3 últimos -->
+			
+					<!--<tr class="cBGClassificacaoUltimos">
+						<td class="cTXTClassificacao" width="131">
+							<a href="/campeonatos/classificacao.asp?id_campeonato=" class="cBGClassificacaoUltimos">
+								
+							</a>
+						</td>
+						<td class="cTXTClassificacao" width="22" align="right">
+							
+						</td>
+					</tr>-->
+					
+			</table>
+
+			<!-- Artilheiro -->
+			
+				<table border="0" cellpadding="3" cellspacing="0" class="cTBLArtilheiro">
+				
+					<tr>
+						<td width="45" rowspan="3">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=6" >
+								<img src="/img/upload/imagens/makukula_50_x_50.jpg" width="45" height="45" border="0" class="FotoArtilheiro">
+							</a>
+						</td>
+								
+						<td class="cTXTArtilheiroNome">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=6" class="cTXTArtilheiroNome">
+								Makukula
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="cTXTArtilheiroTime">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=6" class="cTXTArtilheiroTime">
+								Marítimo
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td class="cTXTArtilheiroGols">
+							<a href="/campeonatos/artilheiro.asp?id_campeonato=6" class="cTXTArtilheiroGols">
+								4 Gols
+							</a>
+						</td>
+					</tr>
+					
+				</table>
+				
+
+			<!-- Destaque -->
+			
+			<!--	<table border="0" cellpadding="3" cellspacing="0" class="cTBLDestaque">-->
+				
+				<!--<tr>
+						<td width="45" rowspan="3"><img src="/img/upload/imagens/" width="45" height="45"></td>
+						<td class="cTXTDestaqueNome"></td>
+					</tr>
+					<tr>
+						<td class="cTXTDestaqueTime"></td>
+					</tr>
+					<tr>
+						<td class="cTXTDestaqueGols">Destaque</td>
+					</tr>-->
+					
+				<!--</table>-->
+				
+			</div>
+			<div id="DIVFooterCampeonatos">&nbsp;</div>
+			
+</div>
+<!-- Fim da caixa da Programação -->
+		</div>
+	</div><br>
+	<br>
+	<br>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-1314608-1";
+urchinTracker();
+</script>
+</body>
+</html>

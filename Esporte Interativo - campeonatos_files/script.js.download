@@ -1,0 +1,400 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+/*
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+*/
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+
+function Pesquisar()
+{
+	f = document.formulario;
+   	NextPage(1);
+  	f.submit();  
+}
+
+/*
+function Pesquisar()
+{
+	f = document.formulario;
+  	if (CampoVazio(f.txtFiltro.value))
+  	{
+	  	alert("Preencha o campo para pesquisa!")
+	 	f.txtFiltro.focus();
+	 	return;  
+ 	}
+  	else 
+  	{
+	   	//try{ f.page.value = 1; }
+	   	//catch(er){}
+	   	NextPage(1);
+	  	f.submit();  
+	  }
+}
+*/
+
+
+//Retorna TRUE - se campo vazio e FALSE caso contrário.
+function CampoVazio(pCampo)
+{
+ if (!(pCampo.replace(/ /g,'').length > 0))
+ 	return true;
+ else
+ 	return false;
+}
+
+function ValidaTextArea(oTextArea,nMaxLength)
+{
+	if (oTextArea.value.length >= nMaxLength )
+	{
+		alert("Você alcançou o limite máximo de caracteres para este campo!")
+		oTextArea.value = oTextArea.value.slice(0,nMaxLength)
+		return;
+	}
+}
+
+/*
+ Permite somente digitar números.
+*/
+function OnlyNumber(pInteiro)
+{ 
+  if ((event.keyCode < 48) || (event.keyCode > 57))  {
+	if  (!pInteiro) {
+ 		if (event.keyCode != 44)  // vírgula
+ 	  		event.returnValue = false;
+ 	 }
+ 	 else {
+ 	 	event.returnValue = false;
+ 	 }	
+  }
+}
+
+/*
+ Permite somente digitar números e traço(-).
+*/
+function OnlyNumber2(pInteiro)
+{ 
+  if ((event.keyCode < 48) || (event.keyCode > 57))  {
+	if  (!pInteiro) {
+ 		if (event.keyCode != 44)  // vírgula
+ 	  		event.returnValue = false;
+ 	 }
+ 	 else {
+ 	 	if (event.keyCode != 45)  // traço(-)
+ 	  		event.returnValue = false;
+ 	 }	
+  }
+}
+
+/*
+ Permite somente digitar números e Barra(/).
+*/
+function OnlyNumber3(pInteiro)
+{ 
+  if ((event.keyCode < 48) || (event.keyCode > 57))  {
+	if  (!pInteiro) {
+ 		if (event.keyCode != 47)  // vírgula
+ 	  		event.returnValue = false;
+ 	 }
+  }
+}
+
+function NotNumber(pNumber,pInteiro)
+{// Para impedir que seja colado um valor não numérico
+  
+	pNumber.value = pNumber.value.replace(/ /g,'')
+	if (pNumber.value.length > 0)
+	{
+		//Troca , por .
+		pNumber.value = pNumber.value.replace(/,/gi,'.')
+		if (isNaN(Number(pNumber.value)))
+			pNumber.value = ""
+		else
+		{
+			if (pInteiro)
+				pNumber.value = parseInt(pNumber.value)
+		}
+		pNumber.value = pNumber.value.replace(/\./g,',')
+	}
+}
+
+
+function DataFormat(oCampo)
+{
+  if ((event.keyCode < 47) || (event.keyCode > 57))
+	event.returnValue = false;
+  else
+  {
+	if (event.keyCode == 47)
+	{
+	   	primeiro = oCampo.value.indexOf("/")
+	   	segundo = oCampo.value.lastIndexOf("/"),oCampo.value.indexOf("/")
+   		if (primeiro != segundo)
+   			event.returnValue = false;
+   	}
+   }	
+}
+
+
+function ValidaNumero(parNumero) {
+  var l_js_Contador; 
+  var l_js_Retorno = true;
+  for (l_js_Contador = 0; l_js_Contador < parNumero.length; l_js_Contador++) {
+  	var l_js_Char = parNumero.charAt(l_js_Contador);
+  	if (!((l_js_Char >= "0") && (l_js_Char <= "9"))) {
+			if ((l_js_Char != ".") && (l_js_Char != ",")) {
+  			l_js_Retorno = false;
+  	  }
+  	}
+  }
+  return l_js_Retorno;
+}
+
+function ComparaData(parData1, parData2) {
+	l_js_Dia1 = parData1.substring(0, parData1.indexOf("/"));
+	l_js_Mes1 = parData1.substring(parData1.indexOf("/")+1, parData1.lastIndexOf("/"));
+	l_js_Ano1 = parData1.substring(parData1.lastIndexOf("/")+1, parData1.length);
+
+	if (l_js_Dia1.length == 1)
+		l_js_Dia1 = '0' + l_js_Dia1
+	if (l_js_Mes1.length == 1)
+		l_js_Mes1 = '0' + l_js_Mes1
+		
+	l_js_Dia2 = parData2.substring(0, parData2.indexOf("/"));
+	l_js_Mes2 = parData2.substring(parData2.indexOf("/")+1, parData2.lastIndexOf("/"));
+	l_js_Ano2 = parData2.substring(parData2.lastIndexOf("/")+1, parData2.length);
+
+	if (l_js_Dia2.length == 1)
+		l_js_Dia2 = '0' + l_js_Dia2
+	if (l_js_Mes2.length == 1)
+		l_js_Mes2 = '0' + l_js_Mes2
+		
+	if (Number(l_js_Ano2 + l_js_Mes2 + l_js_Dia2) <= Number(l_js_Ano1 + l_js_Mes1 + l_js_Dia1))
+		return false;
+	else
+		return true;
+}
+
+function ValidaData(parData) {
+  var l_js_Dia = 0;
+  var l_js_Mes = 0;
+  var l_js_Ano = 0;
+  if ((parData.indexOf("/") == -1) || (parData.indexOf("/") == parData.lastIndexOf("/")))
+		return false;
+    
+  l_js_Dia = parData.substring(0, parData.indexOf("/"))
+  if (ValidaNumero(l_js_Dia) == false)
+		return false;
+
+  l_js_Mes = parData.substring(parData.indexOf("/")+1, parData.lastIndexOf("/"))
+  if (ValidaNumero(l_js_Mes) == false)
+		return false;
+  
+  l_js_Ano = parData.substring(parData.lastIndexOf("/")+1, parData.length);
+  //if ((ValidaNumero(l_js_Ano) == false) || (l_js_Ano.length < 2) || (l_js_Ano.length > 4))
+  if ((ValidaNumero(l_js_Ano) == false) || (l_js_Ano.length != 4))
+   		return false;  
+  if (l_js_Ano < 1000) return false;  				
+  if (l_js_Mes == 0 || l_js_Mes > 12 || l_js_Dia == 0) {
+    return false;
+  }
+  else {
+    if (l_js_Mes == 4 || l_js_Mes == 6 || l_js_Mes == 9 || l_js_Mes == 11) {
+      if (l_js_Dia > 30) {
+  		  return false;
+  		}
+    }
+    else {
+      if (l_js_Mes == 2) {
+        if (Bissexto(l_js_Ano)) {
+          if (l_js_Dia > 29) {
+  					return false;
+  				}
+  			}
+        else {
+          if (l_js_Dia > 28) {
+  					return false;
+  				}
+  			}
+  		}  
+      else {
+  			if (l_js_Dia > 31) {
+  				return false;
+  			}
+  		}
+    }
+  }
+  return true;
+}
+
+function Bissexto(parAno) {
+  if (parAno % 4 == 0) 
+    return true;
+  else
+    return false;
+}
+
+function mouseNormal()
+{
+	if (document.all){
+	    for (var i=0;i < document.all.length; i++)
+	             document.all(i).style.cursor = 'default';
+		}
+}		
+
+function mouseWait()
+{
+	if (document.all){
+	    for (var i=0;i < document.all.length; i++)
+	             document.all(i).style.cursor = 'wait';
+		}
+}		
+
+
+
+function ToolTips()
+{
+	/*	Altera os tooltips  */
+	//if(!document.getElementById) { window.location.href = "https://web.archive.org/web/20071009092210/http://webstandards.org/upgrade/"; }
+
+	window.onload = function(e) {
+	  if(document.createElement) tooltip.d();
+	}
+
+	tooltip = {
+
+	  t: document.createElement("div"),
+	  c: null,
+	  g: false,
+	  
+	  m: function(e) {
+	    if(tooltip.g) {
+	      x = window.event ? event.clientX + document.body.scrollLeft : e.pageX;
+	      y = window.event ? event.clientY + document.body.scrollTop  : e.pageY;
+	      tooltip.a(x,y);
+	    }
+	  },
+
+	  d: function() {
+	    tooltip.t.setAttribute("id","tooltip");
+	    document.body.appendChild(tooltip.t);
+	    a = (document.all) ? document.all : document.getElementsByTagName("*");
+	    for(var i=0; i<a.length; i++) {
+	      if(a[i].getAttribute("title")) {
+	        a[i].setAttribute("text",a[i].getAttribute("title"));
+	        a[i].removeAttribute("title");
+	        if(a[i].getAttribute("alt") && a[i].complete) a[i].removeAttribute("alt");
+	        tooltip.l(a[i],"mouseover",tooltip.s);
+	        tooltip.l(a[i],"mouseout",tooltip.h);
+	      } else if(a[i].getAttribute("alt") && a[i].complete) {
+	        a[i].setAttribute("text",a[i].getAttribute("alt"));
+	        a[i].removeAttribute("alt");
+	        tooltip.l(a[i],"mouseover",tooltip.s);
+	        tooltip.l(a[i],"mouseout",tooltip.h);
+	      }
+	    }
+	    document.onmousemove = tooltip.m;
+	  },
+
+	  s: function(e) {
+	    d = (window.event) ? window.event.srcElement : e.currentTarget;
+	    tooltip.t.appendChild(document.createTextNode(d.getAttribute("text")));
+	    tooltip.c = setTimeout("tooltip.t.style.visibility = 'visible';",500);
+	    tooltip.g = true;
+	  },
+
+	  h: function(e) {
+	    tooltip.t.style.visibility = "hidden";
+	    if (tooltip.t.firstChild) tooltip.t.removeChild(tooltip.t.firstChild);
+	    clearTimeout(tooltip.c);
+	    tooltip.g = false;
+	    tooltip.a(-99,-99);
+	  },
+
+	  l: function(o,e,a) {
+	    if(o.addEventListener) o.addEventListener(e,a,true);
+	    else if(o.attachEvent) o.attachEvent("on"+e,a);
+	    else return null;
+	  },
+
+	  a: function(x,y) {
+	    tooltip.t.style.left = x + 8 + "px";
+	    tooltip.t.style.top  = y + 8 + "px";
+	  }
+	}
+}
+
+
+function LTrim(sTexto)
+{
+	return sTexto.replace( /^\s*/, "" );
+}
+
+function RTrim(sTexto)
+{
+	return sTexto.replace( /\s*$/, "" );
+}
+
+function Trim(sTexto)
+{
+	return RTrim(LTrim(sTexto));
+}
+
+}
+/*
+     FILE ARCHIVED ON 09:22:10 Oct 09, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:27:05 Sep 12, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 96.38
+  exclusion.robots: 0.121
+  exclusion.robots.policy: 0.104
+  cdx.remote: 0.13
+  esindex: 0.028
+  LoadShardBlock: 46.233 (3)
+  PetaboxLoader3.datanode: 58.272 (4)
+  load_resource: 60.856
+  PetaboxLoader3.resolve: 30.518
+*/
